@@ -1,0 +1,29 @@
+{
+  "name": "webrtc-streamer-helper",
+  "version": "0.0.1",
+  "description": "webrtc streamer helper",
+  "scripts": {
+    "dev": "concurrently \"npm run src:dev\"",
+    "src:dev": "rollup -c --watch --bundleConfigAsCjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhensherlock/webrtc-streamer-helper.git"
+  },
+  "author": "zhensherlock",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhensherlock/webrtc-streamer-helper/issues"
+  },
+  "homepage": "https://github.com/zhensherlock/webrtc-streamer-helper#readme",
+  "devDependencies": {
+    "@rollup/plugin-eslint": "^9.0.3",
+    "@rollup/plugin-strip": "^3.0.2",
+    "@rollup/plugin-typescript": "^11.0.0",
+    "@typescript-eslint/parser": "^5.56.0",
+    "concurrently": "^7.6.0",
+    "eslint-config-semistandard": "^17.0.0",
+    "rollup": "^3.20.0",
+    "typescript": "^5.0.2"
+  }
+}
