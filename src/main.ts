@@ -1,3 +1,4 @@
-export default {
-  text: 'hello world!'
-}
+import WebRTCStreamer from './core/webRTCStreamer'
+import './style'
+
+export default WebRTCStreamer
