@@ -6,7 +6,7 @@ module.exports = {
     es6: true,
   },
   extends: [ // 使用的外部代码格式化配置文件
-    'semistandard',
+    // 'semistandard',
     'plugin:import/recommended'
   ],
   plugins: [

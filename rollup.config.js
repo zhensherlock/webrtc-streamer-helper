@@ -17,11 +17,12 @@ const output = [
   },
   {
     format: 'umd',
-    name: 'webrtc-streamer-helper',
+    name: 'WebrtcStreamerHelper',
     file: 'dist/webrtc-streamer-helper.umd.js'
   },
   {
     format: 'iife',
+    name: 'WebrtcStreamerHelper',
     file: 'dist/webrtc-streamer-helper.browser.js'
   },
   {
@@ -31,12 +32,13 @@ const output = [
   },
   {
     format: 'umd',
-    name: 'webrtc-streamer-helper',
+    name: 'WebrtcStreamerHelper',
     file: 'dist/webrtc-streamer-helper.umd.min.js',
     plugins: [terser()]
   },
   {
     format: 'iife',
+    name: 'WebrtcStreamerHelper',
     file: 'dist/webrtc-streamer-helper.browser.min.js',
     plugins: [terser()]
   }
