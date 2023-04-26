@@ -6,7 +6,7 @@ export default class WebRTCStreamer {
   private options: WebRTCStreamerOptions
   private peerConnection: RTCPeerConnection | null = null
   private peerConnectionConfig?: RTCConfiguration
-  private peerId: number = 0
+  private peerConnectionId: number = 0
   private mediaConstraints = { offerToReceiveAudio: true, offerToReceiveVideo: true }
   private iceServers: RTCConfiguration | null = null
   private earlyCandidates: RTCIceCandidate[] = []
@@ -51,7 +51,7 @@ export default class WebRTCStreamer {
       })
     }
     if (this.peerConnection) {
-      fetch(`${this.options.url}/api/hangup?peerid=${this.peerId}`).then(
+      fetch(`${this.options.url}/api/hangup?peerid=${this.peerConnectionId}`).then(
         this.handleHttpErrors
       ).catch((error: Error) => this.onError(`hangup ${error}`))
 
@@ -95,7 +95,7 @@ export default class WebRTCStreamer {
     try {
       this.createPeerConnection()
 
-      let callUrl = `${this.options.url}/api/call?peerId=${this.peerId}&url=${encodeURIComponent(videoUrl)}`
+      let callUrl = `${this.options.url}/api/call?peerid=${this.peerConnectionId}&url=${encodeURIComponent(videoUrl)}`
       if (audioUrl) {
         callUrl += `&audiourl=${encodeURIComponent(audioUrl)}`
       }
@@ -154,7 +154,7 @@ export default class WebRTCStreamer {
   private createPeerConnection () {
     console.log(`createPeerConnection config: ${JSON.stringify(this.peerConnectionConfig)}`)
     this.peerConnection = new RTCPeerConnection(this.peerConnectionConfig)
-    this.peerId = Math.random()
+    this.peerConnectionId = Math.random()
 
     this.peerConnection.onicecandidate = (event) => {
       this.onIceCandidate(event)
@@ -236,7 +236,7 @@ export default class WebRTCStreamer {
       console.log('setRemoteDescription ok')
       while (this.earlyCandidates.length) {
         const candidate = this.earlyCandidates.shift()
-        this.addIceCandidate(this.peerId, candidate)
+        this.addIceCandidate(this.peerConnectionId, candidate)
       }
       this.getIceCandidate()
     }, (error: Error) => {
@@ -259,7 +259,7 @@ export default class WebRTCStreamer {
 
   private getIceCandidate () {
     fetch(
-      `${this.options.url}/api/getIceCandidate?peerid=${this.peerId}`
+      `${this.options.url}/api/getIceCandidate?peerid=${this.peerConnectionId}`
     ).then(
       this.handleHttpErrors
     ).then((resp: Response) => {
@@ -316,7 +316,7 @@ export default class WebRTCStreamer {
   private onIceCandidate (event: RTCPeerConnectionIceEvent) {
     if (event.candidate) {
       if (this.peerConnection?.currentRemoteDescription)  {
-        this.addIceCandidate(this.peerId, event.candidate)
+        this.addIceCandidate(this.peerConnectionId, event.candidate)
       } else {
         this.earlyCandidates.push(event.candidate)
       }
