@@ -17,6 +17,13 @@ export default class WebRTCStreamer {
     this.changeElement(this.options.element)
   }
 
+  /**
+   * Connect a WebRTC Stream to videoElement
+   * @param videUrl
+   * @param audioUrl
+   * @param options
+   * @param localStream
+   */
   connect (videUrl: string, audioUrl: string, options: string, localStream: any) {
     this.disconnect()
 
@@ -33,6 +40,9 @@ export default class WebRTCStreamer {
     }
   }
 
+  /**
+   * Disconnect a WebRTC Stream and clear videoElement source
+   */
   disconnect () {
     if (this.srcObject) {
       this.srcObject.getTracks().forEach((track: any) => {
@@ -70,6 +80,15 @@ export default class WebRTCStreamer {
     return resp
   }
 
+  /**
+   * GetIceServers callback
+   * @param iceServers
+   * @param videoUrl
+   * @param audioUrl
+   * @param options
+   * @param stream
+   * @private
+   */
   private onReceiveGetIceServers (iceServers: RTCConfiguration, videoUrl: string, audioUrl: string, options: string, stream: any) {
     this.iceServers = iceServers
     this.peerConnectionConfig = iceServers || { 'iceServers': [] }
@@ -119,10 +138,19 @@ export default class WebRTCStreamer {
     }
   }
 
+  /**
+   * AJAX callback for Error
+   * @param status
+   * @private
+   */
   private onError (status: any) {
     console.log(`onError: ${status}`)
   }
 
+  /**
+   * create RTCPeerConnection
+   * @private
+   */
   private createPeerConnection () {
     console.log(`createPeerConnection config: ${JSON.stringify(this.peerConnectionConfig)}`)
     this.peerConnection = new RTCPeerConnection(this.peerConnectionConfig)
@@ -196,6 +224,11 @@ export default class WebRTCStreamer {
     return this.peerConnection
   }
 
+  /**
+   * AJAX /call callback
+   * @param dataJson
+   * @private
+   */
   private onReceiveCall (dataJson: RTCSessionDescriptionInit) {
     console.log(`offer: ${JSON.stringify(dataJson)}`)
     const sessionDescription = new RTCSessionDescription(dataJson)
@@ -236,6 +269,11 @@ export default class WebRTCStreamer {
     }).catch((error) => this.onError(`getIceCandidate ${error}`))
   }
 
+  /**
+   * AJAX /getIceCandidate callback
+   * @param dataJson
+   * @private
+   */
   private onReceiveCandidate (dataJson: RTCIceCandidateInit[]) {
     console.log(`candidate: ${JSON.stringify(dataJson)}`)
     if (dataJson) {
@@ -252,6 +290,11 @@ export default class WebRTCStreamer {
     }
   }
 
+  /**
+   * RTCPeerConnection AddTrack callback
+   * @param event
+   * @private
+   */
   private onAddStream (event: any) {
     console.log(`Remote track added: ${JSON.stringify(event)}`)
 
@@ -265,6 +308,11 @@ export default class WebRTCStreamer {
     }
   }
 
+  /**
+   * RTCPeerConnection IceCandidate callback
+   * @param event
+   * @private
+   */
   private onIceCandidate (event: RTCPeerConnectionIceEvent) {
     if (event.candidate) {
       if (this.peerConnection?.currentRemoteDescription)  {
