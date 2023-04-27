@@ -1,11 +1,12 @@
 {
   "name": "webrtc-streamer-helper",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "webrtc streamer helper",
   "scripts": {
-    "build:types": "tsc",
+    "clean:dist": "rimraf dist",
     "dev": "concurrently \"npm run src:dev\"",
     "src:dev": "rollup -c --watch --bundleConfigAsCjs",
+    "build:types": "npm run clean:dist && tsc",
     "build": "npm run build:types && rollup -c --bundleConfigAsCjs --environment NODE_ENV:production"
   },
   "repository": {

@@ -2,7 +2,7 @@ export interface WebRTCStreamerOptions {
   /**
    * id of the video element tag
    */
-  element: Element | string;
+  element: HTMLVideoElement | string;
   /**
    * url of webrtc-streamer (default is current location)
    */

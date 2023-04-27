@@ -5,7 +5,7 @@ import { initialOptions } from '../utils/initialization'
  * Interface with WebRTC-streamer API
  */
 class WebRTCStreamer {
-  private element?: Element
+  private element?: HTMLVideoElement
   private options: WebRTCStreamerOptions
   private peerConnection: RTCPeerConnection | null = null
   private peerConnectionConfig?: RTCConfiguration
@@ -13,7 +13,6 @@ class WebRTCStreamer {
   private mediaConstraints: MediaConstraints
   private iceServers: RTCConfiguration | null = null
   private earlyCandidates: RTCIceCandidate[] = []
-  private srcObject: any
 
   /**
    * Instantiate object
@@ -56,10 +55,12 @@ class WebRTCStreamer {
    * Disconnect a WebRTC Stream and clear videoElement source
    */
   disconnect (): void {
-    if (this.srcObject) {
-      this.srcObject.getTracks().forEach((track: any) => {
+    if (this.element?.srcObject) {
+      // @ts-ignore
+      this.element.srcObject.getTracks().forEach((track: any) => {
         track.stop()
-        this.srcObject.removeTrack(track)
+        // @ts-ignore
+        this.element?.srcObject?.removeTrack(track)
       })
     }
     if (this.peerConnection) {
@@ -76,9 +77,9 @@ class WebRTCStreamer {
     }
   }
 
-  private changeElement (element: Element | string): void {
+  private changeElement (element: HTMLVideoElement | string): void {
     if (typeof element === 'string') {
-      const dom = document.querySelector(element)
+      const dom = <HTMLVideoElement>document.querySelector(element)
       dom && (this.element = dom)
     } else {
       this.element = element
@@ -310,7 +311,7 @@ class WebRTCStreamer {
   private onAddStream (event: any): void {
     console.log(`Remote track added: ${JSON.stringify(event)}`)
 
-    this.srcObject = event.stream
+    this.element!.srcObject = event.stream
     const promise = (<HTMLVideoElement>this.element).play()
     if (promise !== undefined) {
       promise.catch((error: Error) => {
