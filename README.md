@@ -22,14 +22,13 @@ import { WebRTCStreamer } from 'webrtc-streamer-helper'
 
 const webRtcServer = new WebRTCStreamer({
   url: 'http://10.57.2.244:8000',
-  element: 'div-1'
+  element: '#div-1'
 })
 
 webRtcServer.connect(
   videoUrl,
   audioUrl,
-  'rtptransport=tcp&timeout=60&width=320&height=0',
-  null
+  'rtptransport=tcp&timeout=60&width=320&height=0'
 )()
 ```
 
