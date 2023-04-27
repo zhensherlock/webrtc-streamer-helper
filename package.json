@@ -4,7 +4,8 @@
   "description": "webrtc streamer helper",
   "scripts": {
     "dev": "concurrently \"npm run src:dev\"",
-    "src:dev": "rollup -c --watch --bundleConfigAsCjs"
+    "src:dev": "rollup -c --watch --bundleConfigAsCjs",
+    "build": "rollup -c --bundleConfigAsCjs --environment NODE_ENV:production"
   },
   "repository": {
     "type": "git",
@@ -16,6 +17,15 @@
     "url": "https://github.com/zhensherlock/webrtc-streamer-helper/issues"
   },
   "homepage": "https://github.com/zhensherlock/webrtc-streamer-helper#readme",
+  "keywords": [
+    "webrtc-streamer",
+    "webrtc-streamer-helper"
+  ],
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "browser": "dist/index.browser.js",
+  "unpkg": "",
+  "types": "dist/types/main.d.ts",
   "devDependencies": {
     "@rollup/plugin-babel": "^6.0.3",
     "@rollup/plugin-eslint": "^9.0.3",

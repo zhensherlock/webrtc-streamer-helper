@@ -1,6 +1,9 @@
 import { WebRTCStreamerOptions } from '../types'
 import { initialOptions } from '../utils/initialization'
 
+/**
+ * Interface with WebRTC-streamer API
+ */
 export default class WebRTCStreamer {
   private element?: Element
   private options: WebRTCStreamerOptions
@@ -12,8 +15,16 @@ export default class WebRTCStreamer {
   private earlyCandidates: RTCIceCandidate[] = []
   private srcObject: any
 
+  /**
+   * Instantiate object
+   * @constructor
+   * @param args
+   */
   constructor (args: Partial<WebRTCStreamerOptions> = {}) {
     this.options = Object.assign({}, initialOptions, args)
+    if (!this.options.url) {
+      this.options.url = `${window.location.protocol}//${window.location.hostname}:${window.location.port}`
+    }
     this.changeElement(this.options.element)
   }
 
