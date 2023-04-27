@@ -1,1 +1,1 @@
-import './foo.scss'
+import './global.scss'
