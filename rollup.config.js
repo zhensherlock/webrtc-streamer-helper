@@ -12,50 +12,54 @@ import cssnano from 'cssnano'
 
 const output = [
   {
+    name: 'WebrtcStreamerHelper',
     format: 'esm',
     file: 'dist/index.esm.js',
     sourcemap: true
   },
   {
-    format: 'umd',
     name: 'WebrtcStreamerHelper',
+    format: 'umd',
     file: 'dist/index.umd.js',
     sourcemap: true
   },
   {
-    format: 'iife',
     name: 'WebrtcStreamerHelper',
+    format: 'iife',
     file: 'dist/index.browser.js',
     sourcemap: true
   },
   {
+    name: 'WebrtcStreamerHelper',
     format: 'cjs',
     file: 'dist/index.cjs.js',
     sourcemap: true
   },
   // min
   {
+    name: 'WebrtcStreamerHelper',
     format: 'esm',
     file: 'dist/index.esm.min.js',
     plugins: [terser()]
   },
   {
-    format: 'umd',
     name: 'WebrtcStreamerHelper',
+    format: 'umd',
     file: 'dist/index.umd.min.js',
     plugins: [terser()]
   },
   {
-    format: 'iife',
     name: 'WebrtcStreamerHelper',
+    format: 'iife',
     file: 'dist/index.browser.min.js',
     plugins: [terser()]
   },
   {
+    name: 'WebrtcStreamerHelper',
     format: 'cjs',
     file: 'dist/index.cjs.min.js',
     plugins: [terser()]
-  },
+  }
 ]
 
 export default [
