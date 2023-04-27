@@ -1,6 +1,6 @@
 {
   "name": "webrtc-streamer-helper",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "webrtc streamer helper",
   "scripts": {
     "build:types": "tsc",
