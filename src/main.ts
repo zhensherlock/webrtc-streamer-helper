@@ -1,4 +1,6 @@
-import WebRTCStreamer from './core/webRTCStreamer'
+import {
+  WebRTCStreamer
+} from './core/webRTCStreamer'
 import './style'
 
 export {

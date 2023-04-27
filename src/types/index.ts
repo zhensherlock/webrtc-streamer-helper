@@ -8,3 +8,8 @@ export interface WebRTCStreamerOptions {
    */
   url: string;
 }
+
+export type MediaConstraints = {
+  offerToReceiveAudio: boolean;
+  offerToReceiveVideo: boolean;
+}

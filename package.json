@@ -3,9 +3,10 @@
   "version": "0.0.1",
   "description": "webrtc streamer helper",
   "scripts": {
+    "build:types": "tsc",
     "dev": "concurrently \"npm run src:dev\"",
     "src:dev": "rollup -c --watch --bundleConfigAsCjs",
-    "build": "rollup -c --bundleConfigAsCjs --environment NODE_ENV:production"
+    "build": "npm run build:types && rollup -c --bundleConfigAsCjs --environment NODE_ENV:production"
   },
   "repository": {
     "type": "git",
@@ -26,6 +27,9 @@
   "browser": "dist/index.browser.js",
   "unpkg": "",
   "types": "dist/types/main.d.ts",
+  "files": [
+    "dist"
+  ],
   "devDependencies": {
     "@rollup/plugin-babel": "^6.0.3",
     "@rollup/plugin-eslint": "^9.0.3",
