@@ -1,8 +1,3 @@
-import {
-  WebRTCStreamer
-} from './core/webRTCStreamer'
 import './style'
-
-export {
-  WebRTCStreamer
-}
+export * from './core/webRTCStreamer'
+export * from './core/htmlMapMarker'
