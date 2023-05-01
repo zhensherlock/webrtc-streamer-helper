@@ -1,6 +1,6 @@
 {
   "name": "webrtc-streamer-helper",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "webrtc streamer helper",
   "scripts": {
     "clean:dist": "rimraf dist",
@@ -42,9 +42,9 @@
     "@typescript-eslint/parser": "^5.59.1",
     "autoprefixer": "^10.4.14",
     "concurrently": "^8.0.1",
-    "cssnano": "^6.0.0",
+    "cssnano": "^6.0.1",
     "eslint-config-semistandard": "^17.0.0",
-    "rollup": "^3.21.0",
+    "rollup": "^3.21.2",
     "rollup-plugin-filesize": "^10.0.0",
     "rollup-plugin-postcss": "^4.0.2",
     "rollup-plugin-sass": "^1.12.19",
