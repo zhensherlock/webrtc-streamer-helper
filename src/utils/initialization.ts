@@ -1,6 +1,6 @@
 import type { WebRTCStreamerOptions } from '../types'
 
-export const initialOptions: WebRTCStreamerOptions = {
+export const initialWebRTCStreamerOptions: WebRTCStreamerOptions = {
   element: '',
   url: ''
 }

@@ -1,5 +1,5 @@
 import { MediaConstraints, WebRTCStreamerOptions } from '../types'
-import { initialOptions } from '../utils/initialization'
+import { initialWebRTCStreamerOptions } from '../utils/initialization'
 
 /**
  * Interface with WebRTC-streamer API
@@ -20,7 +20,7 @@ class WebRTCStreamer {
    * @param args
    */
   constructor (args: Partial<WebRTCStreamerOptions> = {}) {
-    this.options = Object.assign({}, initialOptions, args)
+    this.options = Object.assign({}, initialWebRTCStreamerOptions, args)
     if (!this.options.url) {
       this.options.url = `${window.location.protocol}//${window.location.hostname}:${window.location.port}`
     }
