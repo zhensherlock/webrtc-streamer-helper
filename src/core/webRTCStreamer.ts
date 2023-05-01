@@ -41,10 +41,10 @@ class WebRTCStreamer {
     if (!this.iceServers) {
       fetch(`${this.options.url}/api/getIceServers`).then(
         this.handleHttpErrors
-      ).then((resp: Response) => {
-        return resp.json()
-      }).then((resp) => {
-        return this.onReceiveGetIceServers(resp, videUrl, audioUrl, options, localStream)
+      ).then((res: Response) => {
+        return res.json()
+      }).then((res) => {
+        return this.onReceiveGetIceServers(res, videUrl, audioUrl, options, localStream)
       }).catch((error) => this.onError(`getIceServers ${error}`))
     } else {
       this.onReceiveGetIceServers(this.iceServers, videUrl, audioUrl, options, localStream)
@@ -86,11 +86,11 @@ class WebRTCStreamer {
     }
   }
 
-  private handleHttpErrors (resp: Response): Response {
-    if (!resp.ok) {
-      throw Error(resp.statusText)
+  private handleHttpErrors (res: Response): Response {
+    if (!res.ok) {
+      throw Error(res.statusText)
     }
-    return resp
+    return res
   }
 
   /**
@@ -134,10 +134,10 @@ class WebRTCStreamer {
             body: JSON.stringify(sessionDescription)
           }).then(
             this.handleHttpErrors
-          ).then((resp: Response) => {
-            return resp.json()
-          }).then((resp) => {
-            this.onReceiveCall(resp)
+          ).then((res: Response) => {
+            return res.json()
+          }).then((res) => {
+            this.onReceiveCall(res)
           }).catch((error) => this.onError(`call ${error}`))
         }, (error: Error) => {
           console.log(`setLocalDescription error: ${JSON.stringify(error)}`)
@@ -156,7 +156,7 @@ class WebRTCStreamer {
    * @param status
    * @private
    */
-  private onError (status: any): void {
+  private onError (status: string): void {
     console.log(`onError: ${status}`)
   }
 
@@ -263,10 +263,10 @@ class WebRTCStreamer {
       { method: 'POST', body: JSON.stringify(candidate) }
     ).then(
       this.handleHttpErrors
-    ).then((resp: Response) => {
-      return resp.json()
-    }).then((resp) => {
-      console.log(`addIceCandidate ok: ${resp}`)
+    ).then((res: Response) => {
+      return res.json()
+    }).then((res) => {
+      console.log(`addIceCandidate ok: ${res}`)
     }).catch((error) => this.onError(`addIceCandidate ${error}`))
   }
 
@@ -275,10 +275,10 @@ class WebRTCStreamer {
       `${this.options.url}/api/getIceCandidate?peerid=${this.peerConnectionId}`
     ).then(
       this.handleHttpErrors
-    ).then((resp: Response) => {
-      return resp.json()
-    }).then((resp) => {
-      this.onReceiveCandidate(resp)
+    ).then((res: Response) => {
+      return res.json()
+    }).then((res) => {
+      this.onReceiveCandidate(res)
     }).catch((error) => this.onError(`getIceCandidate ${error}`))
   }
 
