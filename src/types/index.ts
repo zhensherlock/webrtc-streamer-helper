@@ -36,3 +36,24 @@ export interface HtmlMapMarkerOptions {
    */
   height: number
 }
+
+export interface JanusVideoRoomOptions {
+  /**
+   * url of Janus Gateway
+   */
+  janusUrl: string;
+  /**
+   * url of webrtc-streamer (default is current location)
+   */
+  url: string;
+  /**
+   * event bus
+   */
+  eventBus?: any;
+}
+
+export interface JanusVideoRoomAdvancedUrl {
+  video?: string,
+  audio?: string,
+  options?: string
+}
