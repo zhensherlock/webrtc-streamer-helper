@@ -381,7 +381,7 @@ class JanusVideoRoom {
         }, 10000)
       } else if (dataJson.janus === 'hangup') {
         // notify connection
-        this.emit(name, 'down');
+        this.emit(name, 'down')
       } else if (dataJson.janus === 'event') {
         // member of the room
         const publishers = dataJson.plugindata.data.publishers
