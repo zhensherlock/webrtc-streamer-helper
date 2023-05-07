@@ -59,7 +59,7 @@
     "concurrently": "^8.0.1",
     "cssnano": "^6.0.1",
     "eslint-config-semistandard": "^17.0.0",
-    "rollup": "^3.21.4",
+    "rollup": "^3.21.5",
     "rollup-plugin-filesize": "^10.0.0",
     "rollup-plugin-postcss": "^4.0.2",
     "rollup-plugin-sass": "^1.12.19",
