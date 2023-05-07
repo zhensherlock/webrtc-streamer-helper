@@ -3,7 +3,7 @@
 /**
  * Interface with WebRTC-streamer API
  */
-import { HtmlMapMarkerOptions } from '../types'
+import type { HtmlMapMarkerOptions } from '../types'
 
 class HtmlMapMarker extends google.maps.OverlayView {
   /**

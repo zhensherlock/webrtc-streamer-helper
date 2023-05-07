@@ -1,4 +1,4 @@
-import { JanusVideoRoomOptions, JanusVideoRoomAdvancedUrl } from '../types'
+import type { JanusVideoRoomOptions, JanusVideoRoomAdvancedUrl } from '../types'
 import { initialJanusVideoRoomOptions } from '../utils/initialization'
 
 /**

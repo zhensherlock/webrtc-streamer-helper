@@ -1,4 +1,4 @@
-import { MediaConstraints, WebRTCStreamerOptions } from '../types'
+import type { MediaConstraints, WebRTCStreamerOptions } from '../types'
 import { initialWebRTCStreamerOptions } from '../utils/initialization'
 
 /**
