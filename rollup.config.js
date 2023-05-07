@@ -26,7 +26,7 @@ const output = [
   {
     name: 'WebrtcStreamerHelper',
     format: 'iife',
-    file: 'dist/index.browser.js',
+    file: 'dist/index.iife.js',
     sourcemap: true
   },
   {
@@ -51,7 +51,7 @@ const output = [
   {
     name: 'WebrtcStreamerHelper',
     format: 'iife',
-    file: 'dist/index.browser.min.js',
+    file: 'dist/index.iife.min.js',
     plugins: [terser()]
   },
   {
