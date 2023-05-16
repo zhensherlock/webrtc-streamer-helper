@@ -1,3 +1,5 @@
+import type { EventEmitter } from 'eventemitter3'
+
 export interface JanusVideoRoomOptions {
   /**
    * url of Janus Gateway
@@ -10,7 +12,7 @@ export interface JanusVideoRoomOptions {
   /**
    * event bus
    */
-  eventBus?: any;
+  eventBus?: EventEmitter;
 }
 
 export interface JanusVideoRoomAdvancedUrl {

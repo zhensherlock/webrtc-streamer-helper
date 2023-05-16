@@ -73,5 +73,8 @@
     "> 1%",
     "iOS 7",
     "last 3 iOS versions"
-  ]
+  ],
+  "dependencies": {
+    "eventemitter3": "^5.0.1"
+  }
 }
