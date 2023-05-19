@@ -29,7 +29,7 @@ webRtcServer.connect(
   videoUrl,
   audioUrl,
   'rtptransport=tcp&timeout=60&width=320&height=0'
-)()
+)
 ```
 
 ## License
