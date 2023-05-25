@@ -1,4 +1,8 @@
-import type { WebRTCStreamerOptions, JanusVideoRoomOptions } from '../types'
+import type {
+  WebRTCStreamerOptions,
+  JanusVideoRoomOptions,
+  XmppVideoRoomOptions
+} from '../types'
 
 export const initialWebRTCStreamerOptions: WebRTCStreamerOptions = {
   element: '',
@@ -7,6 +11,12 @@ export const initialWebRTCStreamerOptions: WebRTCStreamerOptions = {
 
 export const initialJanusVideoRoomOptions: JanusVideoRoomOptions = {
   janusUrl: '',
+  url: '',
+  eventBus: undefined
+}
+
+export const initialXmppVideoRoomOptions: XmppVideoRoomOptions = {
+  xmppUrl: '',
   url: '',
   eventBus: undefined
 }
