@@ -87,6 +87,7 @@ export default [
       // }),
       babel({ babelHelpers: 'runtime', exclude: ['node_modules/**'] }),
       filesize()
-    ]
+    ],
+    external: []
   }
 ]
