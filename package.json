@@ -1,6 +1,6 @@
 {
   "name": "webrtc-streamer-helper",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "webrtc streamer helper",
   "scripts": {
     "clean:dist": "rimraf dist",
@@ -54,7 +54,7 @@
     "@rollup/plugin-terser": "^0.4.3",
     "@rollup/plugin-typescript": "^11.1.1",
     "@types/google.maps": "^3.53.4",
-    "@typescript-eslint/parser": "^5.59.11",
+    "@typescript-eslint/parser": "^5.60.0",
     "autoprefixer": "^10.4.14",
     "concurrently": "^8.2.0",
     "cssnano": "^6.0.1",
