@@ -1,3 +1,17 @@
+## [0.2.1](https://github.com/zhensherlock/webrtc-streamer-helper/compare/v0.2.0...v0.2.1) (2023-07-24)
+
+
+### 🎫 Chores | 其他更新
+
+* update dependencies ([29b837a](https://github.com/zhensherlock/webrtc-streamer-helper/commit/29b837aea187295500a6020954921eb8280cc04c))
+
+
+### 👷‍ Build System | 构建
+
+* add git hooks ([d8fe707](https://github.com/zhensherlock/webrtc-streamer-helper/commit/d8fe707aa6319cd725663b4535cc2741720348eb))
+
+
+
 # [0.2.0](https://github.com/zhensherlock/webrtc-streamer-helper/compare/v0.1.9...v0.2.0) (2023-07-21)
 
 
