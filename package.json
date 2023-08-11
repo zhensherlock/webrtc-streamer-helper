@@ -1,6 +1,6 @@
 {
   "name": "webrtc-streamer-helper",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "webrtc streamer helper",
   "scripts": {
     "clean:dist": "rimraf dist",
@@ -51,8 +51,8 @@
     "README.md"
   ],
   "devDependencies": {
-    "@commitlint/cli": "^17.6.7",
-    "@commitlint/config-conventional": "^17.6.7",
+    "@commitlint/cli": "^17.7.1",
+    "@commitlint/config-conventional": "^17.7.0",
     "@rollup/plugin-babel": "^6.0.3",
     "@rollup/plugin-eslint": "^9.0.4",
     "@rollup/plugin-node-resolve": "^15.1.0",
@@ -72,7 +72,7 @@
     "eslint-plugin-import": "^2.28.0",
     "husky": "^8.0.3",
     "rimraf": "^5.0.1",
-    "rollup": "^3.27.2",
+    "rollup": "^3.28.0",
     "rollup-plugin-filesize": "^10.0.0",
     "rollup-plugin-postcss": "^4.0.2",
     "rollup-plugin-sass": "^1.12.20",
