@@ -1,3 +1,12 @@
+## [1.0.3](https://github.com/zhensherlock/webrtc-streamer-helper/compare/v1.0.2...v1.0.3) (2023-08-14)
+
+
+### 🎫 Chores | 其他更新
+
+* update dependencies ([18446d6](https://github.com/zhensherlock/webrtc-streamer-helper/commit/18446d60b7616f0bfe7c3cf7d1ac4cb276668a5d))
+
+
+
 ## [1.0.2](https://github.com/zhensherlock/webrtc-streamer-helper/compare/v1.0.1...v1.0.2) (2023-08-11)
 
 
