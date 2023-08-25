@@ -60,7 +60,7 @@
     "@rollup/plugin-terser": "^0.4.3",
     "@rollup/plugin-typescript": "^11.1.2",
     "@types/google.maps": "^3.54.0",
-    "@typescript-eslint/parser": "^5.62.0",
+    "@typescript-eslint/parser": "^6.0.0",
     "autoprefixer": "^10.4.15",
     "concurrently": "^8.2.1",
     "conventional-changelog-angular": "^6.0.0",
