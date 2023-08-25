@@ -1,6 +1,6 @@
 {
   "name": "webrtc-streamer-helper",
-  "version": "1.0.6",
+  "version": "1.1.0",
   "description": "webrtc streamer helper",
   "scripts": {
     "clean:dist": "rimraf dist",
@@ -59,7 +59,7 @@
     "@rollup/plugin-strip": "^3.0.2",
     "@rollup/plugin-terser": "^0.4.3",
     "@rollup/plugin-typescript": "^11.1.2",
-    "@types/google.maps": "^3.53.6",
+    "@types/google.maps": "^3.54.0",
     "@typescript-eslint/parser": "^5.62.0",
     "autoprefixer": "^10.4.15",
     "concurrently": "^8.2.1",
@@ -76,7 +76,7 @@
     "rollup-plugin-filesize": "^10.0.0",
     "rollup-plugin-postcss": "^4.0.2",
     "rollup-plugin-sass": "^1.12.20",
-    "typescript": "^5.1.6"
+    "typescript": "^5.2.2"
   },
   "browserslist": [
     "defaults",
