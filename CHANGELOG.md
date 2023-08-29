@@ -1,3 +1,15 @@
+## [1.1.1](https://github.com/zhensherlock/webrtc-streamer-helper/compare/v1.1.0...v1.1.1) (2023-08-29)
+
+
+### 🎫 Chores | 其他更新
+
+* **deps:** update dependency @rollup/plugin-typescript to v11.1.3 ([76ce4f8](https://github.com/zhensherlock/webrtc-streamer-helper/commit/76ce4f84fe08cf3f6e3d376be369bac469750cd6))
+* **deps:** update dependency conventional-changelog-angular to v7 ([cfc804c](https://github.com/zhensherlock/webrtc-streamer-helper/commit/cfc804c7c8f1a8f6bf8705d62f0b476728d5e46d))
+* **deps:** update dependency eslint to v8.48.0 ([4ed5113](https://github.com/zhensherlock/webrtc-streamer-helper/commit/4ed5113530678f019ad7190f85a79f6c0458a79f))
+* update dependencies ([b0ce3e5](https://github.com/zhensherlock/webrtc-streamer-helper/commit/b0ce3e55f3cd26ea10016d2fd899ebce2075f7c7))
+
+
+
 # [1.1.0](https://github.com/zhensherlock/webrtc-streamer-helper/compare/v1.0.6...v1.1.0) (2023-08-25)
 
 
