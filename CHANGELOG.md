@@ -1,3 +1,17 @@
+# [1.2.0](https://github.com/zhensherlock/webrtc-streamer-helper/compare/v1.1.1...v1.2.0) (2023-09-01)
+
+
+### 🎫 Chores | 其他更新
+
+* add lint-staged, prettier, eslint, stylelint ([eaa574d](https://github.com/zhensherlock/webrtc-streamer-helper/commit/eaa574dbf6dd83ce6af0582be9c7243d803ef710))
+
+
+### 💄 Styles | 风格
+
+* update code style ([d3b9338](https://github.com/zhensherlock/webrtc-streamer-helper/commit/d3b93381b3ce93393b532677d92222391deccca3))
+
+
+
 ## [1.1.1](https://github.com/zhensherlock/webrtc-streamer-helper/compare/v1.1.0...v1.1.1) (2023-08-29)
 
 
