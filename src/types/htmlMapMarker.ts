@@ -2,21 +2,21 @@ export interface HtmlMapMarkerOptions {
   /**
    * marker position
    */
-  latLng: google.maps.LatLng,
+  latLng: google.maps.LatLng;
   /**
    * marker content
    */
-  html: string,
+  html: string;
   /**
    * map instance
    */
-  map: google.maps.Map,
+  map: google.maps.Map;
   /**
    * marker width
    */
-  width: number,
+  width: number;
   /**
    * marker height
    */
-  height: number
+  height: number;
 }

@@ -1,4 +1,4 @@
-import type { EventEmitter } from 'eventemitter3'
+import type { EventEmitter } from 'eventemitter3';
 
 export interface JanusVideoRoomOptions {
   /**
@@ -16,7 +16,7 @@ export interface JanusVideoRoomOptions {
 }
 
 export interface JanusVideoRoomAdvancedUrl {
-  video?: string,
-  audio?: string,
-  options?: string
+  video?: string;
+  audio?: string;
+  options?: string;
 }

@@ -12,4 +12,4 @@ export interface WebRTCStreamerOptions {
 export type MediaConstraints = {
   offerToReceiveAudio: boolean;
   offerToReceiveVideo: boolean;
-}
+};
