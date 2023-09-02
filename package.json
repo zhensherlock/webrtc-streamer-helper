@@ -15,7 +15,7 @@
     "build:types": "npm run clean:dist && tsc",
     "build": "npm run build:types && rollup -c --bundleConfigAsCjs --environment NODE_ENV:production",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 -n changelog-option.js",
-    "lint-changelog": "concurrently \"npm run lint:lint-staged\" \"npm run changelog\""
+    "lint-changelog": "concurrently \"npm run lint\" \"npm run changelog\""
   },
   "repository": {
     "type": "git",
