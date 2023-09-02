@@ -9,7 +9,7 @@
     "lint:prettier": "prettier --write \"src/**/*.{js,jsx,cjs,json,tsx,ts,css,less,scss,vue,html,md}\"",
     "lint:eslint": "eslint --cache --max-warnings 0 \"src/**/*.{js,jsx,cjs,tsx,ts}\" --fix",
     "lint:stylelint": "stylelint --cache --fix \"src/**/*.{css,less,scss,styl,postcss,vue}\" --cache --cache-location node_modules/.cache/stylelint/",
-    "lint": "npx eslint \"src/*.{ts,js}\"",
+    "lint": "npx eslint \"src/**/*.{ts,js}\" --fix",
     "dev": "concurrently \"npm run src:dev\"",
     "src:dev": "rollup -c --watch --bundleConfigAsCjs",
     "build:types": "npm run clean:dist && tsc",
