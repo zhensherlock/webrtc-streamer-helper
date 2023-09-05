@@ -2,9 +2,9 @@ module.exports = {
   root: true,
   plugins: ['stylelint-order'],
   extends: [
-    'stylelint-config-standard',
-    'stylelint-config-standard-scss',
-    'stylelint-config-prettier',
+    // 'stylelint-config-standard',
+    // 'stylelint-config-standard-scss',
+    // 'stylelint-config-prettier',
   ],
   rules: {
     'selector-pseudo-class-no-unknown': [
