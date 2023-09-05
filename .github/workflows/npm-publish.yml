@@ -24,7 +24,7 @@ jobs:
           cache: npm
 
       - name: Install Package
-        run: npm ci --legacy-peer-deps
+        run: npm ci
 
       - name: Build Package
         run: npm run build
