@@ -1,13 +1,28 @@
-# [1.2.0](https://github.com/zhensherlock/webrtc-streamer-helper/compare/v1.1.1...v1.2.0) (2023-09-01)
+## [1.2.1](https://github.com/zhensherlock/webrtc-streamer-helper/compare/v1.2.0...v1.2.1) (2023-09-05)
+
+
+### 🎫 Chores | 其他更新
+
+* update dependencies ([12ec067](https://github.com/zhensherlock/webrtc-streamer-helper/commit/12ec067f910f1ee26ca7aa65cfe59d28731cadf1))
+* update stylelint config ([c2f4924](https://github.com/zhensherlock/webrtc-streamer-helper/commit/c2f49241fde656723fa3ac62364a5a7aaa1e61cd))
+
+
+
+# [1.2.0](https://github.com/zhensherlock/webrtc-streamer-helper/compare/v1.1.1...v1.2.0) (2023-09-02)
 
 
 ### 🎫 Chores | 其他更新
 
 * add lint-staged, prettier, eslint, stylelint ([eaa574d](https://github.com/zhensherlock/webrtc-streamer-helper/commit/eaa574dbf6dd83ce6af0582be9c7243d803ef710))
+* update lint-changelog ([f0894ea](https://github.com/zhensherlock/webrtc-streamer-helper/commit/f0894eaed15ac1145314e96b37323175af18bf5b))
+* update pre-commit ([b3a51bd](https://github.com/zhensherlock/webrtc-streamer-helper/commit/b3a51bd0484cb6da6095085535886cfc6bf0aa2b))
+* update pre-commit ([5dcf816](https://github.com/zhensherlock/webrtc-streamer-helper/commit/5dcf816984d6feb7967d7afc3ad5b896f55c8a4f))
+* update typescript version ([e4d92d4](https://github.com/zhensherlock/webrtc-streamer-helper/commit/e4d92d4aa19a0ce84f5b04158bacb51cd25410e2))
 
 
 ### 💄 Styles | 风格
 
+* update code style ([c1d0d58](https://github.com/zhensherlock/webrtc-streamer-helper/commit/c1d0d589ff8762b5f1fe8101c8b90c0e6c6c0b73))
 * update code style ([d3b9338](https://github.com/zhensherlock/webrtc-streamer-helper/commit/d3b93381b3ce93393b532677d92222391deccca3))
 
 
