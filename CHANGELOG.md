@@ -5,6 +5,7 @@
 
 * **deps:** update actions/checkout action to v4 ([f55f89d](https://github.com/zhensherlock/webrtc-streamer-helper/commit/f55f89dbe4c20225058da40ca379b21e3699edfc))
 * update dependencies ([12ec067](https://github.com/zhensherlock/webrtc-streamer-helper/commit/12ec067f910f1ee26ca7aa65cfe59d28731cadf1))
+* update dependency @babel/core to v7.22.17 ([#24](https://github.com/zhensherlock/webrtc-streamer-helper/issues/24)) ([6782ceb](https://github.com/zhensherlock/webrtc-streamer-helper/commit/6782ceb04fddf9fc7713020c925cd6112e46e8ea))
 * update dependency conventional-changelog-cli to v4.1.0 ([#21](https://github.com/zhensherlock/webrtc-streamer-helper/issues/21)) ([9f3cad5](https://github.com/zhensherlock/webrtc-streamer-helper/commit/9f3cad5c7e6adb9a8ba61f33696aad1098a7bc4b))
 * update dependency eslint to v8.49.0 ([#22](https://github.com/zhensherlock/webrtc-streamer-helper/issues/22)) ([67476a0](https://github.com/zhensherlock/webrtc-streamer-helper/commit/67476a024f8d2c0f3c2ee73c0e70df6881feaf5b))
 * update dependency rollup to v3.29.0 ([#20](https://github.com/zhensherlock/webrtc-streamer-helper/issues/20)) ([412edf1](https://github.com/zhensherlock/webrtc-streamer-helper/commit/412edf1f990d1fc0982a47152b34b45dd3b6de4a))
