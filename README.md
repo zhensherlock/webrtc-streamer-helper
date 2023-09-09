@@ -1,6 +1,7 @@
 <p align="center">
   <a href="https://npmjs.com/package/webrtc-streamer-helper"><img src="https://badgen.net/npm/v/webrtc-streamer-helper" alt="npm package"></a>
   <img alt="npm bundle size" src="https://img.shields.io/bundlephobia/minzip/webrtc-streamer-helper">
+  <img alt="npm download week" src="https://img.shields.io/npm/dw/webrtc-streamer-helper">
   <img alt="GitHub" src="https://img.shields.io/github/license/zhensherlock/webrtc-streamer-helper">
 </p>
 
