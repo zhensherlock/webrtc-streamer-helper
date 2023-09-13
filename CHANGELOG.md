@@ -1,3 +1,13 @@
+## [1.2.3](https://github.com/zhensherlock/webrtc-streamer-helper/compare/v1.2.2...v1.2.3) (2023-09-13)
+
+
+### 🎫 Chores | 其他更新
+
+* **deps:** update dependency rollup to v3.29.1 ([ca1676d](https://github.com/zhensherlock/webrtc-streamer-helper/commit/ca1676da32c73adc9976e2a5cec68dd6b3ed42b8))
+* update dependency rollup to v3.29.1 ([#25](https://github.com/zhensherlock/webrtc-streamer-helper/issues/25)) ([915221f](https://github.com/zhensherlock/webrtc-streamer-helper/commit/915221f660d529720b651e86e386ac2a7e9720ad))
+
+
+
 ## [1.2.2](https://github.com/zhensherlock/webrtc-streamer-helper/compare/v1.2.1...v1.2.2) (2023-09-09)
 
 
