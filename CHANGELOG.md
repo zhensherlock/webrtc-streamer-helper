@@ -1,3 +1,15 @@
+## [1.2.6](https://github.com/zhensherlock/webrtc-streamer-helper/compare/v1.2.5...v1.2.6) (2023-09-25)
+
+
+### 🎫 Chores | 其他更新
+
+* **deps:** update dependency eslint to v8.50.0 ([4c9f437](https://github.com/zhensherlock/webrtc-streamer-helper/commit/4c9f437bbf0c77342371d27f30cb6789811c7ff4))
+* **deps:** update dependency rollup to v3.29.3 ([93d8860](https://github.com/zhensherlock/webrtc-streamer-helper/commit/93d8860193caa5763abd753d40c239e6dba75976))
+* update dependency eslint to v8.50.0 ([#35](https://github.com/zhensherlock/webrtc-streamer-helper/issues/35)) ([68acd1b](https://github.com/zhensherlock/webrtc-streamer-helper/commit/68acd1b240d425607dfe4fbfcf68a68d202f693b))
+* update dependency rollup to v3.29.3 ([#36](https://github.com/zhensherlock/webrtc-streamer-helper/issues/36)) ([8a00615](https://github.com/zhensherlock/webrtc-streamer-helper/commit/8a0061533a52cf6068d629244f8cec829acfde89))
+
+
+
 ## [1.2.5](https://github.com/zhensherlock/webrtc-streamer-helper/compare/v1.2.4...v1.2.5) (2023-09-21)
 
 
