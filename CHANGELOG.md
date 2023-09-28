@@ -1,3 +1,19 @@
+## [1.2.7](https://github.com/zhensherlock/webrtc-streamer-helper/compare/v1.2.6...v1.2.7) (2023-09-28)
+
+
+### 🎫 Chores | 其他更新
+
+* **deps:** update dependency @babel/core to v7.23.0 ([8079601](https://github.com/zhensherlock/webrtc-streamer-helper/commit/8079601bc70fb10fdef54fff1d50955ac549ee5e))
+* **deps:** update dependency @types/google.maps to v3.54.2 ([42e95bc](https://github.com/zhensherlock/webrtc-streamer-helper/commit/42e95bc4c568d3c2c4e93f37c6d558ab00e1e625))
+* **deps:** update dependency rimraf to v5.0.5 ([d753419](https://github.com/zhensherlock/webrtc-streamer-helper/commit/d753419ad4732420b631f81f335f97bbd1ae770c))
+* **deps:** update dependency rollup to v3.29.4 ([ba40a26](https://github.com/zhensherlock/webrtc-streamer-helper/commit/ba40a266264db47036986b2fe761429c2da1655f))
+* update dependency @babel/core to v7.23.0 ([#42](https://github.com/zhensherlock/webrtc-streamer-helper/issues/42)) ([054b8dd](https://github.com/zhensherlock/webrtc-streamer-helper/commit/054b8dd7a6d05342fc5acd6ed72d693d2041e8b6))
+* update dependency @types/google.maps to v3.54.2 ([#45](https://github.com/zhensherlock/webrtc-streamer-helper/issues/45)) ([317291c](https://github.com/zhensherlock/webrtc-streamer-helper/commit/317291c94156a56f0328d89346e07bac14d1a5d7))
+* update dependency rimraf to v5.0.5 ([#44](https://github.com/zhensherlock/webrtc-streamer-helper/issues/44)) ([b482d97](https://github.com/zhensherlock/webrtc-streamer-helper/commit/b482d97030835633eb3d95e324adf3e63d4b7524))
+* update dependency rollup to v3.29.4 ([#43](https://github.com/zhensherlock/webrtc-streamer-helper/issues/43)) ([e20c2c0](https://github.com/zhensherlock/webrtc-streamer-helper/commit/e20c2c0b56074d1b857ee76515e4b8ae1df59fd8))
+
+
+
 ## [1.2.6](https://github.com/zhensherlock/webrtc-streamer-helper/compare/v1.2.5...v1.2.6) (2023-09-25)
 
 
