@@ -1,3 +1,17 @@
+## [1.2.8](https://github.com/zhensherlock/webrtc-streamer-helper/compare/v1.2.7...v1.2.8) (2023-10-03)
+
+
+### 🎫 Chores | 其他更新
+
+* **deps:** update dependency @commitlint/cli to v17.7.2 ([3a07c28](https://github.com/zhensherlock/webrtc-streamer-helper/commit/3a07c2830b8a307a6575473ad3c42f0c60400224))
+* **deps:** update dependency @rollup/plugin-typescript to v11.1.4 ([17f39f7](https://github.com/zhensherlock/webrtc-streamer-helper/commit/17f39f74ecf9084681a7ab6e8259bfbd279fbd72))
+* **deps:** update dependency @types/google.maps to v3.54.3 ([a4e91fa](https://github.com/zhensherlock/webrtc-streamer-helper/commit/a4e91fa94d95a5b333f37e3d1a511adfd199d652))
+* update dependency @commitlint/cli to v17.7.2 ([#50](https://github.com/zhensherlock/webrtc-streamer-helper/issues/50)) ([d49607e](https://github.com/zhensherlock/webrtc-streamer-helper/commit/d49607e5aadff13799f39831e4b6b64d5596800f))
+* update dependency @rollup/plugin-typescript to v11.1.4 ([#49](https://github.com/zhensherlock/webrtc-streamer-helper/issues/49)) ([a3f2149](https://github.com/zhensherlock/webrtc-streamer-helper/commit/a3f21496ff051ab23e027e1db2f17487e1878ba7))
+* update dependency @types/google.maps to v3.54.3 ([#48](https://github.com/zhensherlock/webrtc-streamer-helper/issues/48)) ([87e696b](https://github.com/zhensherlock/webrtc-streamer-helper/commit/87e696b71bd62ff1cefa8f4685e8f8fdf34a47ef))
+
+
+
 ## [1.2.7](https://github.com/zhensherlock/webrtc-streamer-helper/compare/v1.2.6...v1.2.7) (2023-09-28)
 
 
