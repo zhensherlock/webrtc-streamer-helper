@@ -1,3 +1,25 @@
+## [1.2.9](https://github.com/zhensherlock/webrtc-streamer-helper/compare/v1.2.8...v1.2.9) (2023-10-07)
+
+
+### 🎫 Chores | 其他更新
+
+* **deps:** update dependency @rollup/plugin-babel to v6.0.4 ([fca26a5](https://github.com/zhensherlock/webrtc-streamer-helper/commit/fca26a5435e584e87d0b25ff2136e273df9b6656))
+* **deps:** update dependency @rollup/plugin-eslint to v9.0.5 ([844b7bd](https://github.com/zhensherlock/webrtc-streamer-helper/commit/844b7bdd0f53f70289c75f68b9240f91631154fc))
+* **deps:** update dependency @rollup/plugin-node-resolve to v15.2.2 ([3de6de5](https://github.com/zhensherlock/webrtc-streamer-helper/commit/3de6de54153afd5ec1aba19fc46affe08a163172))
+* **deps:** update dependency @rollup/plugin-strip to v3.0.3 ([f99b041](https://github.com/zhensherlock/webrtc-streamer-helper/commit/f99b04185d1565ad3a27a182ffd1111f5daae5e7))
+* **deps:** update dependency @rollup/plugin-terser to v0.4.4 ([c06d68c](https://github.com/zhensherlock/webrtc-streamer-helper/commit/c06d68c9e3d509ca2982504a4a8b475fd8084a4f))
+* **deps:** update dependency @rollup/plugin-typescript to v11.1.5 ([317fc7c](https://github.com/zhensherlock/webrtc-streamer-helper/commit/317fc7c5b7c111e0dce30083ff7933b0f330382e))
+* **deps:** update dependency eslint to v8.51.0 ([e817e3e](https://github.com/zhensherlock/webrtc-streamer-helper/commit/e817e3ec870223769f5151ddfec67c4cbabf344d))
+* update dependency @rollup/plugin-babel to v6.0.4 ([#65](https://github.com/zhensherlock/webrtc-streamer-helper/issues/65)) ([7039b72](https://github.com/zhensherlock/webrtc-streamer-helper/commit/7039b72358daf74b7a0e92e13cef059fb96c3a1c))
+* update dependency @rollup/plugin-eslint to v9.0.5 ([#65](https://github.com/zhensherlock/webrtc-streamer-helper/issues/65)) ([d14a96a](https://github.com/zhensherlock/webrtc-streamer-helper/commit/d14a96ac4398e3931649c7b2f7a90bd0aa4f7dcf))
+* update dependency @rollup/plugin-node-resolve to v15.2.2 ([#63](https://github.com/zhensherlock/webrtc-streamer-helper/issues/63)) ([cd14b41](https://github.com/zhensherlock/webrtc-streamer-helper/commit/cd14b41ea4861a1037a13e53e90b685e745ffe60))
+* update dependency @rollup/plugin-strip to v3.0.3 ([#62](https://github.com/zhensherlock/webrtc-streamer-helper/issues/62)) ([8b033f1](https://github.com/zhensherlock/webrtc-streamer-helper/commit/8b033f1565afa33191850359605d16fac110d9ca))
+* update dependency @rollup/plugin-terser to v0.4.4 ([#61](https://github.com/zhensherlock/webrtc-streamer-helper/issues/61)) ([5896716](https://github.com/zhensherlock/webrtc-streamer-helper/commit/58967160792badee719968edc98eec7edca10e39))
+* update dependency @rollup/plugin-typescript to v11.1.5 ([#60](https://github.com/zhensherlock/webrtc-streamer-helper/issues/60)) ([deb73b2](https://github.com/zhensherlock/webrtc-streamer-helper/commit/deb73b25fc7290511217714bb2d4bdb78c529eaf))
+* update dependency eslint to v8.51.0 ([#59](https://github.com/zhensherlock/webrtc-streamer-helper/issues/59)) ([4411c00](https://github.com/zhensherlock/webrtc-streamer-helper/commit/4411c00e6cb521cc541fd1cf18edd122368eb2c0))
+
+
+
 ## [1.2.8](https://github.com/zhensherlock/webrtc-streamer-helper/compare/v1.2.7...v1.2.8) (2023-10-03)
 
 
