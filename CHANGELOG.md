@@ -1,3 +1,17 @@
+## [1.2.10](https://github.com/zhensherlock/webrtc-streamer-helper/compare/v1.2.9...v1.2.10) (2023-10-11)
+
+
+### 🎫 Chores | 其他更新
+
+* **deps:** update dependency @rollup/plugin-node-resolve to v15.2.3 ([d3762f9](https://github.com/zhensherlock/webrtc-streamer-helper/commit/d3762f9c8454d7a4d7f3e8434931d597bfa06114))
+* **deps:** update dependency eslint-define-config to v1.24.1 ([b9773c3](https://github.com/zhensherlock/webrtc-streamer-helper/commit/b9773c35ccbc82ef52587da31fda8ad6e2332918))
+* **deps:** update dependency rollup-plugin-sass to v1.12.21 ([e082c28](https://github.com/zhensherlock/webrtc-streamer-helper/commit/e082c288659b079cbaea3b8a1cfeb9b59af48858))
+* update dependency @rollup/plugin-node-resolve to v15.2.3 ([#69](https://github.com/zhensherlock/webrtc-streamer-helper/issues/69)) ([0e6036d](https://github.com/zhensherlock/webrtc-streamer-helper/commit/0e6036d493755e4db5c9100b8d12d86924cbd15c))
+* update dependency eslint-define-config to v1.24.1 ([#70](https://github.com/zhensherlock/webrtc-streamer-helper/issues/70)) ([6002191](https://github.com/zhensherlock/webrtc-streamer-helper/commit/60021910fa3e1605c00565fe8098467ca85e28dd))
+* update dependency rollup-plugin-sass to v1.12.21 ([#71](https://github.com/zhensherlock/webrtc-streamer-helper/issues/71)) ([cc53c5e](https://github.com/zhensherlock/webrtc-streamer-helper/commit/cc53c5e44e33bd084cee053f4dcf81b87991934d))
+
+
+
 ## [1.2.9](https://github.com/zhensherlock/webrtc-streamer-helper/compare/v1.2.8...v1.2.9) (2023-10-07)
 
 
