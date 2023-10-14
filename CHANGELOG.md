@@ -1,3 +1,17 @@
+## [1.2.11](https://github.com/zhensherlock/webrtc-streamer-helper/compare/v1.2.10...v1.2.11) (2023-10-14)
+
+
+### 🎫 Chores | 其他更新
+
+* **deps:** update babel monorepo to v7.23.2 ([346c781](https://github.com/zhensherlock/webrtc-streamer-helper/commit/346c78148c27d0f9a4d42ce8df57a51ed4f0f72c))
+* **deps:** update commitlint monorepo to v17.8.0 ([af8fb9d](https://github.com/zhensherlock/webrtc-streamer-helper/commit/af8fb9de3445844e11cb3545508694d994f24ac8))
+* **deps:** update dependency eslint-plugin-prettier to v5.0.1 ([ead20e4](https://github.com/zhensherlock/webrtc-streamer-helper/commit/ead20e4ec6a353e3bdb16fe5f5cc203f39143c21))
+* update babel monorepo to v7.23.2 ([#77](https://github.com/zhensherlock/webrtc-streamer-helper/issues/77)) ([5d4cf2e](https://github.com/zhensherlock/webrtc-streamer-helper/commit/5d4cf2efe1c5335e3b2d6b34798b2d83233c2f0c))
+* update commitlint monorepo to v17.8.0 ([#75](https://github.com/zhensherlock/webrtc-streamer-helper/issues/75)) ([f150ac4](https://github.com/zhensherlock/webrtc-streamer-helper/commit/f150ac47a3a5ffa88801e897349ac9579c41f7d8))
+* update dependency eslint-plugin-prettier to v5.0.1 ([#76](https://github.com/zhensherlock/webrtc-streamer-helper/issues/76)) ([a7b2f6f](https://github.com/zhensherlock/webrtc-streamer-helper/commit/a7b2f6f65ef50e250da65016d748d6ac5350fad1))
+
+
+
 ## [1.2.10](https://github.com/zhensherlock/webrtc-streamer-helper/compare/v1.2.9...v1.2.10) (2023-10-11)
 
 
