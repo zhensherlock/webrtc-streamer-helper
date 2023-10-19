@@ -1,3 +1,21 @@
+## [1.2.12](https://github.com/zhensherlock/webrtc-streamer-helper/compare/v1.2.11...v1.2.12) (2023-10-19)
+
+
+### 🎫 Chores | 其他更新
+
+* **deps:** update dependency @rollup/plugin-strip to v3.0.4 ([117c94f](https://github.com/zhensherlock/webrtc-streamer-helper/commit/117c94f2382e9fdd69f1645f2cef41fc1effffab))
+* **deps:** update dependency @types/google.maps to v3.54.4 ([7b0cd9f](https://github.com/zhensherlock/webrtc-streamer-helper/commit/7b0cd9fbd7dc203c8ec5927fa2c2973344c0dde3))
+* **deps:** update dependency concurrently to v8.2.2 ([fc04c18](https://github.com/zhensherlock/webrtc-streamer-helper/commit/fc04c18fd4e5a415f4a44d810c3aea2436a70aa5))
+* **deps:** update dependency lint-staged to v15 ([3a6ee17](https://github.com/zhensherlock/webrtc-streamer-helper/commit/3a6ee17d311e6b6e1eade897f5b42d69ca574dd4))
+* **deps:** update dependency lint-staged to v15.0.1 ([32e5f6b](https://github.com/zhensherlock/webrtc-streamer-helper/commit/32e5f6bcb991fc8cbe54f04d056a743efbb09665))
+* **deps:** update dependency stylelint to v15.11.0 ([7abc6c6](https://github.com/zhensherlock/webrtc-streamer-helper/commit/7abc6c6f671005a796f984437b8cb2afaf257859))
+* update dependency @rollup/plugin-strip to v3.0.4 ([#86](https://github.com/zhensherlock/webrtc-streamer-helper/issues/86)) ([25c20bc](https://github.com/zhensherlock/webrtc-streamer-helper/commit/25c20bcc3366b21a291b9b2727bc5a3b57e0343c))
+* update dependency @types/google.maps to v3.54.4 ([#85](https://github.com/zhensherlock/webrtc-streamer-helper/issues/85)) ([ee4c0e2](https://github.com/zhensherlock/webrtc-streamer-helper/commit/ee4c0e2e460089bd999985293eb2dbf895d22474))
+* update dependency lint-staged to v15.0.1 ([#84](https://github.com/zhensherlock/webrtc-streamer-helper/issues/84)) ([e4b128d](https://github.com/zhensherlock/webrtc-streamer-helper/commit/e4b128d38cf1d5fdcdc844505e08913b943cbbb8))
+* update dependency stylelint to v15.11.0 ([#83](https://github.com/zhensherlock/webrtc-streamer-helper/issues/83)) ([67eeb1e](https://github.com/zhensherlock/webrtc-streamer-helper/commit/67eeb1e6d6bdc97b66eb6df31aa7e97d9469d1de))
+
+
+
 ## [1.2.11](https://github.com/zhensherlock/webrtc-streamer-helper/compare/v1.2.10...v1.2.11) (2023-10-14)
 
 
