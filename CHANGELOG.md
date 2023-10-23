@@ -1,3 +1,15 @@
+## [1.2.13](https://github.com/zhensherlock/webrtc-streamer-helper/compare/v1.2.12...v1.2.13) (2023-10-23)
+
+
+### 🎫 Chores | 其他更新
+
+* **deps:** update commitlint monorepo to v18 ([50781b8](https://github.com/zhensherlock/webrtc-streamer-helper/commit/50781b8cfc92c1ef24420ea0bbd0b37928b4d85d))
+* update dependency concurrently to v8.2.2 ([#5](https://github.com/zhensherlock/webrtc-streamer-helper/issues/5)) ([ea7e50f](https://github.com/zhensherlock/webrtc-streamer-helper/commit/ea7e50f81f1d6180b661b36e27ecc749284838dc))
+* update dependency eslint to v8.52.0 ([#93](https://github.com/zhensherlock/webrtc-streamer-helper/issues/93)) ([136e7b7](https://github.com/zhensherlock/webrtc-streamer-helper/commit/136e7b789a82962387908f220a49c07690abe0e7))
+* update dependency lint-staged to v15.0.2 ([#94](https://github.com/zhensherlock/webrtc-streamer-helper/issues/94)) ([be52145](https://github.com/zhensherlock/webrtc-streamer-helper/commit/be52145fef87039818e75f53ae0be421e46984ea))
+
+
+
 ## [1.2.12](https://github.com/zhensherlock/webrtc-streamer-helper/compare/v1.2.11...v1.2.12) (2023-10-19)
 
 
