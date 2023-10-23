@@ -70,7 +70,7 @@
     "@types/google.maps": "^3.54.4",
     "@typescript-eslint/parser": "^5.62.0",
     "autoprefixer": "^10.4.16",
-    "concurrently": "^8.2.1",
+    "concurrently": "^8.2.2",
     "conventional-changelog-angular": "^7.0.0",
     "conventional-changelog-cli": "^4.1.0",
     "cssnano": "^6.0.1",
