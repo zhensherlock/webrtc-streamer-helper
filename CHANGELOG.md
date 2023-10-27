@@ -1,3 +1,19 @@
+## [1.2.14](https://github.com/zhensherlock/webrtc-streamer-helper/compare/v1.2.13...v1.2.14) (2023-10-27)
+
+
+### 🎫 Chores | 其他更新
+
+* **deps:** update actions/setup-node action to v4 ([513866e](https://github.com/zhensherlock/webrtc-streamer-helper/commit/513866e038fac048247d094269a6920f33b0d7ff))
+* **deps:** update commitlint monorepo to v18.2.0 ([c5f5a96](https://github.com/zhensherlock/webrtc-streamer-helper/commit/c5f5a968dbae2e7c4f20bf88d0b76a98ebfe384b))
+* **deps:** update dependency @types/google.maps to v3.54.5 ([bc1f3ba](https://github.com/zhensherlock/webrtc-streamer-helper/commit/bc1f3ba8a65938d810dbd59279d4f85a9a66cdd1))
+* **deps:** update dependency eslint-plugin-import to v2.29.0 ([c3bf755](https://github.com/zhensherlock/webrtc-streamer-helper/commit/c3bf75522c48efd0497d9a273063b825d65ca397))
+* update commitlint monorepo to v18.1.0 ([2488aa3](https://github.com/zhensherlock/webrtc-streamer-helper/commit/2488aa38387c28918534048e0e8bcb48c926e4a8))
+* update commitlint monorepo to v18.2.0 ([#101](https://github.com/zhensherlock/webrtc-streamer-helper/issues/101)) ([c980ed3](https://github.com/zhensherlock/webrtc-streamer-helper/commit/c980ed31f3bc94deaa3103c6aee9871467f32769))
+* update dependency @types/google.maps to v3.54.5 ([#102](https://github.com/zhensherlock/webrtc-streamer-helper/issues/102)) ([e81baa4](https://github.com/zhensherlock/webrtc-streamer-helper/commit/e81baa4a8ee52ff08f1fa0b61e70e67f8f82f1a7))
+* update dependency eslint-plugin-import to v2.29.0 ([#100](https://github.com/zhensherlock/webrtc-streamer-helper/issues/100)) ([abc7016](https://github.com/zhensherlock/webrtc-streamer-helper/commit/abc70160b1e66b86220d8e1570b4312507f38ab1))
+
+
+
 ## [1.2.13](https://github.com/zhensherlock/webrtc-streamer-helper/compare/v1.2.12...v1.2.13) (2023-10-23)
 
 
