@@ -1,3 +1,17 @@
+## [1.2.18](https://github.com/zhensherlock/webrtc-streamer-helper/compare/v1.2.17...v1.2.18) (2023-11-12)
+
+
+### 🎫 Chores | 其他更新
+
+* **deps:** update babel monorepo to v7.23.3 ([6168560](https://github.com/zhensherlock/webrtc-streamer-helper/commit/61685605c5a241ce5330294193cd5636aaf46656))
+* **deps:** update commitlint monorepo to v18.4.0 ([ba76969](https://github.com/zhensherlock/webrtc-streamer-helper/commit/ba76969005bd3a19e80fdb4ec133be9696c28ad4))
+* **deps:** update dependency lint-staged to v15.1.0 ([d7fc1f5](https://github.com/zhensherlock/webrtc-streamer-helper/commit/d7fc1f51a96f2479f25b9e83f7b2feefc04816d9))
+* update babel monorepo to v7.23.3 ([#114](https://github.com/zhensherlock/webrtc-streamer-helper/issues/114)) ([22a225a](https://github.com/zhensherlock/webrtc-streamer-helper/commit/22a225af61a1ff36266455f290ffbd1f2e3d71e9))
+* update commitlint monorepo to v18.4.0 ([#113](https://github.com/zhensherlock/webrtc-streamer-helper/issues/113)) ([a567dd5](https://github.com/zhensherlock/webrtc-streamer-helper/commit/a567dd57731c23cb633716acea79d63e48ce2ac4))
+* update dependency lint-staged to v15.1.0 ([#112](https://github.com/zhensherlock/webrtc-streamer-helper/issues/112)) ([1d61325](https://github.com/zhensherlock/webrtc-streamer-helper/commit/1d61325fe287c18a76a0f7f9e65524eb2642ba90))
+
+
+
 ## [1.2.17](https://github.com/zhensherlock/webrtc-streamer-helper/compare/v1.2.16...v1.2.17) (2023-11-08)
 
 
