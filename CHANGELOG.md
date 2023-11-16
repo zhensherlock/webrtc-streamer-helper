@@ -1,3 +1,15 @@
+## [1.2.19](https://github.com/zhensherlock/webrtc-streamer-helper/compare/v1.2.18...v1.2.19) (2023-11-16)
+
+
+### 🎫 Chores | 其他更新
+
+* **deps:** update dependency @commitlint/cli to v18.4.1 ([8702857](https://github.com/zhensherlock/webrtc-streamer-helper/commit/8702857436baa348aa3f7a24d03025c35132eb19))
+* **deps:** update dependency prettier to v3.1.0 ([23ba100](https://github.com/zhensherlock/webrtc-streamer-helper/commit/23ba100f2c9b1bf3574eb136c53cbc4dc86c3755))
+* update dependency @commitlint/cli to v18.4.1 ([#118](https://github.com/zhensherlock/webrtc-streamer-helper/issues/118)) ([53426aa](https://github.com/zhensherlock/webrtc-streamer-helper/commit/53426aa81c3e2227fe681be5d1ce92a4061f754f))
+* update dependency prettier to v3.1.0 ([#117](https://github.com/zhensherlock/webrtc-streamer-helper/issues/117)) ([7464faf](https://github.com/zhensherlock/webrtc-streamer-helper/commit/7464faf6980f0afaf247c6815898eb6e610a25e5))
+
+
+
 ## [1.2.18](https://github.com/zhensherlock/webrtc-streamer-helper/compare/v1.2.17...v1.2.18) (2023-11-12)
 
 
