@@ -1,3 +1,18 @@
+## [1.2.21](https://github.com/zhensherlock/webrtc-streamer-helper/compare/v1.2.20...v1.2.21) (2023-11-24)
+
+
+### 🎫 Chores | 其他更新
+
+* **deps:** update commitlint monorepo to v18.4.3 ([02ceb0b](https://github.com/zhensherlock/webrtc-streamer-helper/commit/02ceb0b42185510f1d366116c42048f073c2c238))
+* **deps:** update dependency @babel/plugin-transform-runtime to v7.23.4 ([1c1faa3](https://github.com/zhensherlock/webrtc-streamer-helper/commit/1c1faa33c5210bfcf757253c6b09c77520b80b8c))
+* **deps:** update dependency @types/google.maps to v3.54.9 ([62e2bbd](https://github.com/zhensherlock/webrtc-streamer-helper/commit/62e2bbd2e21caec5babcbd5b7fe000930dcb60cc))
+* **deps:** update dependency typescript to v5.3.2 ([cc13763](https://github.com/zhensherlock/webrtc-streamer-helper/commit/cc13763f156bd942e4e2e091dc09c0c0ed3d6867))
+* update commitlint monorepo to v18.4.3 ([#133](https://github.com/zhensherlock/webrtc-streamer-helper/issues/133)) ([78cf91a](https://github.com/zhensherlock/webrtc-streamer-helper/commit/78cf91ac5589741805ca5455809e049da8959893))
+* update dependency @babel/plugin-transform-runtime to v7.23.4 ([#132](https://github.com/zhensherlock/webrtc-streamer-helper/issues/132)) ([1af9688](https://github.com/zhensherlock/webrtc-streamer-helper/commit/1af968890bd23fcb717ea1490989452a18ab4bbd))
+* update dependency @types/google.maps to v3.54.9 ([#131](https://github.com/zhensherlock/webrtc-streamer-helper/issues/131)) ([1d6cef5](https://github.com/zhensherlock/webrtc-streamer-helper/commit/1d6cef54d2841e389bd0367c91a5dc2a0f39f018))
+
+
+
 ## [1.2.20](https://github.com/zhensherlock/webrtc-streamer-helper/compare/v1.2.19...v1.2.20) (2023-11-19)
 
 
