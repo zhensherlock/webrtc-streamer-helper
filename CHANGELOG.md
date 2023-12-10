@@ -1,3 +1,14 @@
+## [1.2.25](https://github.com/zhensherlock/webrtc-streamer-helper/compare/v1.2.24...v1.2.25) (2023-12-10)
+
+
+### 🎫 Chores | 其他更新
+
+* **deps:** update dependency stylelint-order to v6.0.4 ([22c63a7](https://github.com/zhensherlock/webrtc-streamer-helper/commit/22c63a799ef5bfa6082ed090525409bb610094d1))
+* **deps:** update dependency typescript to v5.3.3 ([1882952](https://github.com/zhensherlock/webrtc-streamer-helper/commit/1882952b3d0ca5d15d3410a6149ef3128e19f68a))
+* update dependency stylelint-order to v6.0.4 ([#148](https://github.com/zhensherlock/webrtc-streamer-helper/issues/148)) ([db90ca8](https://github.com/zhensherlock/webrtc-streamer-helper/commit/db90ca8614fbe3f0ca20f2a4be57c732cf9f8a49))
+
+
+
 ## [1.2.24](https://github.com/zhensherlock/webrtc-streamer-helper/compare/v1.2.23...v1.2.24) (2023-12-06)
 
 
