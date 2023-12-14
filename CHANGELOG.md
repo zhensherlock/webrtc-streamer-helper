@@ -1,3 +1,16 @@
+## [1.2.26](https://github.com/zhensherlock/webrtc-streamer-helper/compare/v1.2.25...v1.2.26) (2023-12-14)
+
+
+### 🎫 Chores | 其他更新
+
+* **deps:** update babel monorepo to v7.23.6 ([e86aa1b](https://github.com/zhensherlock/webrtc-streamer-helper/commit/e86aa1be92ae3cff7febc029b74ce027fd3b5a9a))
+* **deps:** update dependency prettier to v3.1.1 ([2346738](https://github.com/zhensherlock/webrtc-streamer-helper/commit/2346738a3b3a102a17a987b361ff1e48a3aa703d))
+* **deps:** update dependency stylelint to v16 ([4f97d77](https://github.com/zhensherlock/webrtc-streamer-helper/commit/4f97d77a8f0994cc99a5403280a333ede372c669))
+* update babel monorepo to v7.23.6 ([#152](https://github.com/zhensherlock/webrtc-streamer-helper/issues/152)) ([39d3f74](https://github.com/zhensherlock/webrtc-streamer-helper/commit/39d3f74eedbb828e49ee58b14d860f0a98942c5f))
+* update dependency prettier to v3.1.1 ([#151](https://github.com/zhensherlock/webrtc-streamer-helper/issues/151)) ([a93083d](https://github.com/zhensherlock/webrtc-streamer-helper/commit/a93083d75d26cd48fbfb42c507bcf13f6352fc61))
+
+
+
 ## [1.2.25](https://github.com/zhensherlock/webrtc-streamer-helper/compare/v1.2.24...v1.2.25) (2023-12-10)
 
 
