@@ -1,3 +1,16 @@
+## [1.2.29](https://github.com/zhensherlock/webrtc-streamer-helper/compare/v1.2.28...v1.2.29) (2023-12-26)
+
+
+### 🎫 Chores | 其他更新
+
+* **deps:** update dependency eslint-plugin-prettier to v5.1.2 ([21c2f4b](https://github.com/zhensherlock/webrtc-streamer-helper/commit/21c2f4b0ea022b8706531af77f00a601d2379e14))
+* **deps:** update dependency stylelint to v16.1.0 ([88d3ca8](https://github.com/zhensherlock/webrtc-streamer-helper/commit/88d3ca83213414f6549fd9bc3c7ec6ebf3f9caaa))
+* update dependency eslint-plugin-prettier to v5.1.2 ([#166](https://github.com/zhensherlock/webrtc-streamer-helper/issues/166)) ([62d385f](https://github.com/zhensherlock/webrtc-streamer-helper/commit/62d385f4d1e1ca630d31e8fa63be2c2e2292d250))
+* update dependency rollup to v4 ([31702ef](https://github.com/zhensherlock/webrtc-streamer-helper/commit/31702ef67a4d50e0bad86c2cd10db6e1ef8fbbec))
+* update dependency stylelint to v16.1.0 ([#165](https://github.com/zhensherlock/webrtc-streamer-helper/issues/165)) ([93e2b3d](https://github.com/zhensherlock/webrtc-streamer-helper/commit/93e2b3d58d8983681ff1f243bc509a7e1f4fa610))
+
+
+
 ## [1.2.28](https://github.com/zhensherlock/webrtc-streamer-helper/compare/v1.2.27...v1.2.28) (2023-12-22)
 
 

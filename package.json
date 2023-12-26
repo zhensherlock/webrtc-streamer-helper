@@ -1,6 +1,6 @@
 {
   "name": "webrtc-streamer-helper",
-  "version": "1.2.28",
+  "version": "1.2.29",
   "description": "webrtc streamer helper",
   "scripts": {
     "clean:dist": "rimraf dist",
