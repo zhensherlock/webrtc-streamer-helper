@@ -1,3 +1,17 @@
+## [1.2.32](https://github.com/zhensherlock/webrtc-streamer-helper/compare/v1.2.31...v1.2.32) (2024-01-07)
+
+
+### 🎫 Chores | 其他更新
+
+* **deps:** update commitlint monorepo to v18.4.4 ([9710d1c](https://github.com/zhensherlock/webrtc-streamer-helper/commit/9710d1cdcae59a7957b1a1b8c2d7da903ed1c8e3))
+* **deps:** update dependency cssnano to v6.0.3 ([77ad6e3](https://github.com/zhensherlock/webrtc-streamer-helper/commit/77ad6e32377913da0a466138818f218311217b55))
+* **deps:** update dependency rollup to v4.9.4 ([1e80a30](https://github.com/zhensherlock/webrtc-streamer-helper/commit/1e80a30d2a43889436cb381593a807366e321356))
+* update commitlint monorepo to v18.4.4 ([#178](https://github.com/zhensherlock/webrtc-streamer-helper/issues/178)) ([d74b51e](https://github.com/zhensherlock/webrtc-streamer-helper/commit/d74b51ebd8e4459b0422aae713449c45262cdaa8))
+* update dependency cssnano to v6.0.3 ([#177](https://github.com/zhensherlock/webrtc-streamer-helper/issues/177)) ([2222357](https://github.com/zhensherlock/webrtc-streamer-helper/commit/222235714970d223e4486a57262e8f5b149a05f1))
+* update dependency rollup to v4.9.4 ([#176](https://github.com/zhensherlock/webrtc-streamer-helper/issues/176)) ([ba49c6c](https://github.com/zhensherlock/webrtc-streamer-helper/commit/ba49c6c856fbd3094c8615fcac368ccd3d221bd2))
+
+
+
 ## [1.2.31](https://github.com/zhensherlock/webrtc-streamer-helper/compare/v1.2.30...v1.2.31) (2024-01-03)
 
 
