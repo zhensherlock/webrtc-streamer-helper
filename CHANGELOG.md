@@ -1,3 +1,22 @@
+# [1.3.0](https://github.com/zhensherlock/webrtc-streamer-helper/compare/v1.2.32...v1.3.0) (2024-01-11)
+
+
+### ✨ Features | 新功能
+
+* webRTCStreamer add preferenceMime param ([b79d1aa](https://github.com/zhensherlock/webrtc-streamer-helper/commit/b79d1aaeb4a4b55495bf6246ed7f846d81550c11))
+
+
+### 🎫 Chores | 其他更新
+
+* **deps:** update dependency @babel/preset-env to v7.23.8 ([f558977](https://github.com/zhensherlock/webrtc-streamer-helper/commit/f558977589b8c7962dbb33db8302bdd39204bc01))
+* **deps:** update dependency @rollup/plugin-typescript to v11.1.6 ([9180823](https://github.com/zhensherlock/webrtc-streamer-helper/commit/91808233e4fa97b301fb223d7effaa9257f918c8))
+* **deps:** update dependency eslint-plugin-prettier to v5.1.3 ([539df42](https://github.com/zhensherlock/webrtc-streamer-helper/commit/539df429e5a4955632500dcf33211474ca89e8d8))
+* update dependency @babel/preset-env to v7.23.8 ([#184](https://github.com/zhensherlock/webrtc-streamer-helper/issues/184)) ([21f91f9](https://github.com/zhensherlock/webrtc-streamer-helper/commit/21f91f9ff2628c83b538605139fb40df2b2e6a48))
+* update dependency @rollup/plugin-typescript to v11.1.6 ([#183](https://github.com/zhensherlock/webrtc-streamer-helper/issues/183)) ([99d6705](https://github.com/zhensherlock/webrtc-streamer-helper/commit/99d670507cd1f630decb467a821ecd22144779ab))
+* update dependency eslint-plugin-prettier to v5.1.3 ([#182](https://github.com/zhensherlock/webrtc-streamer-helper/issues/182)) ([1c1ec62](https://github.com/zhensherlock/webrtc-streamer-helper/commit/1c1ec620bbed4f6f75dbf0f8bd14211c43cb50f0))
+
+
+
 ## [1.2.32](https://github.com/zhensherlock/webrtc-streamer-helper/compare/v1.2.31...v1.2.32) (2024-01-07)
 
 

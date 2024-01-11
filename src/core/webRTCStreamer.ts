@@ -145,16 +145,16 @@ class WebRTCStreamer {
 
           if (preferenceMime !== undefined) {
             // set preference codec
-            let [preferenceKind] = preferenceMime.split('/');
-            const codecs = RTCRtpReceiver.getCapabilities(preferenceKind)?.codecs || [];
-            let preferenceCodecs = codecs.filter((codec: RTCRtpCodecCapability) => codec.mimeType === preferenceMime);
+            let [preferenceKind] = preferenceMime.split('/')
+            const codecs = RTCRtpReceiver.getCapabilities(preferenceKind)?.codecs || []
+            let preferenceCodecs = codecs.filter((codec: RTCRtpCodecCapability) => codec.mimeType === preferenceMime)
 
-            console.log(`preferenceCodecs: ${JSON.stringify(preferenceCodecs)}`);
+            console.log(`preferenceCodecs: ${JSON.stringify(preferenceCodecs)}`)
             this.peerConnection?.getTransceivers().filter(transceiver => transceiver.receiver.track.kind === preferenceKind).forEach(item => {
               if(item.setCodecPreferences !== undefined) {
-                item.setCodecPreferences(preferenceCodecs);
+                item.setCodecPreferences(preferenceCodecs)
               }
-            });
+            })
           }
           this.peerConnection?.setLocalDescription(sessionDescription).then(
             () => {
