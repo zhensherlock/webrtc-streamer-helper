@@ -34,8 +34,9 @@ class WebRTCStreamer {
    * @param audioUrl
    * @param options
    * @param localStream
+   * @param preferenceMime
    */
-  connect(videUrl: string, audioUrl: string, options: string, localStream?: MediaStream): void {
+  connect(videUrl: string, audioUrl: string, options: string, localStream?: MediaStream, preferenceMime?: string): void {
     this.disconnect()
 
     if (!this.iceServers) {
@@ -45,11 +46,11 @@ class WebRTCStreamer {
           return res.json()
         })
         .then((res) => {
-          return this.onReceiveGetIceServers(res, videUrl, audioUrl, options, localStream)
+          return this.onReceiveGetIceServers(res, videUrl, audioUrl, options, localStream, preferenceMime)
         })
         .catch((error) => this.onError(`getIceServers ${error}`))
     } else {
-      this.onReceiveGetIceServers(this.iceServers, videUrl, audioUrl, options, localStream)
+      this.onReceiveGetIceServers(this.iceServers, videUrl, audioUrl, options, localStream, preferenceMime)
     }
   }
 
@@ -109,7 +110,8 @@ class WebRTCStreamer {
     videoUrl: string,
     audioUrl: string,
     options: string,
-    stream?: MediaStream
+    stream?: MediaStream,
+    preferenceMime?: string
   ): void {
     this.iceServers = iceServers
     this.peerConnectionConfig = iceServers || { iceServers: [] }
@@ -138,7 +140,22 @@ class WebRTCStreamer {
       this.peerConnection?.createOffer(this.mediaConstraints).then(
         (sessionDescription) => {
           console.log(`Create offer: ${JSON.stringify(sessionDescription)}`)
+          console.log(`video codecs:${Array.from(new Set(RTCRtpReceiver.getCapabilities('video')?.codecs?.map(codec => codec.mimeType)))}`)
+          console.log(`audio codecs:${Array.from(new Set(RTCRtpReceiver.getCapabilities('audio')?.codecs?.map(codec => codec.mimeType)))}`)
 
+          if (preferenceMime !== undefined) {
+            // set preference codec
+            let [preferenceKind] = preferenceMime.split('/');
+            const codecs = RTCRtpReceiver.getCapabilities(preferenceKind)?.codecs || [];
+            let preferenceCodecs = codecs.filter((codec: RTCRtpCodecCapability) => codec.mimeType === preferenceMime);
+
+            console.log(`preferenceCodecs: ${JSON.stringify(preferenceCodecs)}`);
+            this.peerConnection?.getTransceivers().filter(transceiver => transceiver.receiver.track.kind === preferenceKind).forEach(item => {
+              if(item.setCodecPreferences !== undefined) {
+                item.setCodecPreferences(preferenceCodecs);
+              }
+            });
+          }
           this.peerConnection?.setLocalDescription(sessionDescription).then(
             () => {
               fetch(callUrl, {
@@ -226,17 +243,17 @@ class WebRTCStreamer {
         console.log(`remote datachannel receive: ${JSON.stringify(event.data)}`)
       }
     }
-    this.peerConnection.onicegatheringstatechange = () => {
-      if (this.peerConnection?.iceGatheringState === 'complete') {
-        const receivers = this.peerConnection.getReceivers()
-
-        receivers.forEach((receiver) => {
-          if (receiver.track && receiver.track.kind === 'video') {
-            console.log(`codecs: ${JSON.stringify(receiver.getParameters().codecs)}`)
-          }
-        })
-      }
-    }
+    // this.peerConnection.onicegatheringstatechange = () => {
+    //   if (this.peerConnection?.iceGatheringState === 'complete') {
+    //     const receivers = this.peerConnection.getReceivers()
+    //
+    //     receivers.forEach((receiver) => {
+    //       if (receiver.track && receiver.track.kind === 'video') {
+    //         console.log(`codecs: ${JSON.stringify(receiver.getParameters().codecs)}`)
+    //       }
+    //     })
+    //   }
+    // }
 
     try {
       const dataChannel = this.peerConnection.createDataChannel('ClientDataChannel')
