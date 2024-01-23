@@ -1,3 +1,17 @@
+## [1.3.3](https://github.com/zhensherlock/webrtc-streamer-helper/compare/v1.3.2...v1.3.3) (2024-01-23)
+
+
+### 🎫 Chores | 其他更新
+
+* **deps:** update commitlint monorepo to v18.5.0 ([894cfdd](https://github.com/zhensherlock/webrtc-streamer-helper/commit/894cfddb6015d9cabbb3ddc42160959c32ddeb06))
+* **deps:** update dependency rollup to v4.9.6 ([ef0af14](https://github.com/zhensherlock/webrtc-streamer-helper/commit/ef0af146ff5582637de1be3ed8644ce4feb95a71))
+* **deps:** update dependency stylelint to v16.2.0 ([5e5b066](https://github.com/zhensherlock/webrtc-streamer-helper/commit/5e5b066540973bd8e5bbb7d5f7e06ac4cb07ef65))
+* update commitlint monorepo to v18.5.0 ([#197](https://github.com/zhensherlock/webrtc-streamer-helper/issues/197)) ([f96bc96](https://github.com/zhensherlock/webrtc-streamer-helper/commit/f96bc96311ed9c17d160aac01faf0a1524b0c5a4))
+* update dependency rollup to v4.9.6 ([#198](https://github.com/zhensherlock/webrtc-streamer-helper/issues/198)) ([42a744a](https://github.com/zhensherlock/webrtc-streamer-helper/commit/42a744ad5710967ddba56a1a27575d821dcb62e8))
+* update dependency stylelint to v16.2.0 ([#196](https://github.com/zhensherlock/webrtc-streamer-helper/issues/196)) ([f4cddf1](https://github.com/zhensherlock/webrtc-streamer-helper/commit/f4cddf152f0a6f21ac8b940005144b1370cbf57d))
+
+
+
 ## [1.3.2](https://github.com/zhensherlock/webrtc-streamer-helper/compare/v1.3.1...v1.3.2) (2024-01-19)
 
 
