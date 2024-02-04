@@ -1,3 +1,19 @@
+## [1.3.6](https://github.com/zhensherlock/webrtc-streamer-helper/compare/v1.3.5...v1.3.6) (2024-02-04)
+
+
+### 🎫 Chores | 其他更新
+
+* **deps:** update dependency @babel/eslint-parser to v7.23.10 ([cbb714e](https://github.com/zhensherlock/webrtc-streamer-helper/commit/cbb714e689f8a68bab060763cdad24dfb64b3dd9))
+* **deps:** update dependency husky to v9.0.10 ([bc3332a](https://github.com/zhensherlock/webrtc-streamer-helper/commit/bc3332af83e173f2a860e30dfae20b9cc71761dc))
+* **deps:** update dependency lint-staged to v15.2.1 ([94604db](https://github.com/zhensherlock/webrtc-streamer-helper/commit/94604db05c61c0a98a21f83c5c4e6adfc8180b67))
+* **deps:** update dependency stylelint to v16.2.1 ([0b5e5ec](https://github.com/zhensherlock/webrtc-streamer-helper/commit/0b5e5ecd86f7ee6b01cccba55ba328701731a592))
+* update dependency @babel/eslint-parser to v7.23.10 ([#218](https://github.com/zhensherlock/webrtc-streamer-helper/issues/218)) ([62ecfa1](https://github.com/zhensherlock/webrtc-streamer-helper/commit/62ecfa1c1fa6dd6e824ab60b5d7e95a8ebab897e))
+* update dependency husky to v9.0.10 ([#217](https://github.com/zhensherlock/webrtc-streamer-helper/issues/217)) ([17bd693](https://github.com/zhensherlock/webrtc-streamer-helper/commit/17bd693efcfb21bec0617f7cc4ae74333a0d0ede))
+* update dependency lint-staged to v15.2.1 ([#216](https://github.com/zhensherlock/webrtc-streamer-helper/issues/216)) ([f5a5a89](https://github.com/zhensherlock/webrtc-streamer-helper/commit/f5a5a899040ca9e766713dd075a674fc181edc8c))
+* update dependency stylelint to v16.2.1 ([#215](https://github.com/zhensherlock/webrtc-streamer-helper/issues/215)) ([e277f1f](https://github.com/zhensherlock/webrtc-streamer-helper/commit/e277f1fab33858af2689cae534826d3e7b9c3f59))
+
+
+
 ## [1.3.5](https://github.com/zhensherlock/webrtc-streamer-helper/compare/v1.3.4...v1.3.5) (2024-01-31)
 
 
