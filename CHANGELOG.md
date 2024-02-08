@@ -1,3 +1,17 @@
+## [1.3.7](https://github.com/zhensherlock/webrtc-streamer-helper/compare/v1.3.6...v1.3.7) (2024-02-08)
+
+
+### 🎫 Chores | 其他更新
+
+* **deps:** update dependency @types/google.maps to v3.55.2 ([a192aea](https://github.com/zhensherlock/webrtc-streamer-helper/commit/a192aea43bc8ff0f0a348199995f85ab83971430))
+* **deps:** update dependency lint-staged to v15.2.2 ([e3adaa7](https://github.com/zhensherlock/webrtc-streamer-helper/commit/e3adaa7ee903c85e054ff877893948a053979631))
+* **deps:** update dependency prettier to v3.2.5 ([f320d61](https://github.com/zhensherlock/webrtc-streamer-helper/commit/f320d6128b6d18f4e4d250f9b396a26250218680))
+* update dependency @types/google.maps to v3.55.2 ([#224](https://github.com/zhensherlock/webrtc-streamer-helper/issues/224)) ([1d6cfe9](https://github.com/zhensherlock/webrtc-streamer-helper/commit/1d6cfe923db7fecb29f43bf7458e9552e7b6c859))
+* update dependency lint-staged to v15.2.2 ([#223](https://github.com/zhensherlock/webrtc-streamer-helper/issues/223)) ([a2e08c2](https://github.com/zhensherlock/webrtc-streamer-helper/commit/a2e08c2275be5ac62850ef4272fc42e74b31f3b9))
+* update dependency prettier to v3.2.5 ([#222](https://github.com/zhensherlock/webrtc-streamer-helper/issues/222)) ([3c65614](https://github.com/zhensherlock/webrtc-streamer-helper/commit/3c6561401430dc36cbfd5819cb1800357babe84d))
+
+
+
 ## [1.3.6](https://github.com/zhensherlock/webrtc-streamer-helper/compare/v1.3.5...v1.3.6) (2024-02-04)
 
 
