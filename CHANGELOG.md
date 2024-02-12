@@ -1,3 +1,15 @@
+## [1.3.8](https://github.com/zhensherlock/webrtc-streamer-helper/compare/v1.3.7...v1.3.8) (2024-02-12)
+
+
+### 🎫 Chores | 其他更新
+
+* **deps:** update dependency @types/google.maps to v3.55.3 ([dbe4409](https://github.com/zhensherlock/webrtc-streamer-helper/commit/dbe44095df6b65abc10156a25c1c06d456c05dc5))
+* **deps:** update dependency rollup to v4.10.0 ([fc5041c](https://github.com/zhensherlock/webrtc-streamer-helper/commit/fc5041cf8a87a39f2a4ceee3fa463817362aa0d6))
+* update dependency @types/google.maps to v3.55.3 ([#228](https://github.com/zhensherlock/webrtc-streamer-helper/issues/228)) ([5766b3f](https://github.com/zhensherlock/webrtc-streamer-helper/commit/5766b3fc7cc45f44ec5fc0625c5bea5ff0fba5d6))
+* update dependency rollup to v4.10.0 ([#226](https://github.com/zhensherlock/webrtc-streamer-helper/issues/226)) ([66b3bae](https://github.com/zhensherlock/webrtc-streamer-helper/commit/66b3bae14829609eb8834ccbb3902046314478ba))
+
+
+
 ## [1.3.7](https://github.com/zhensherlock/webrtc-streamer-helper/compare/v1.3.6...v1.3.7) (2024-02-08)
 
 
