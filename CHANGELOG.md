@@ -1,3 +1,18 @@
+## [1.3.9](https://github.com/zhensherlock/webrtc-streamer-helper/compare/v1.3.8...v1.3.9) (2024-02-15)
+
+
+### 🎫 Chores | 其他更新
+
+* **deps:** update commitlint monorepo to v18.6.1 ([4ffef9f](https://github.com/zhensherlock/webrtc-streamer-helper/commit/4ffef9f2c613053a050c249e4d5292142db794f1))
+* **deps:** update dependency @typescript-eslint/parser to v7 ([0889a69](https://github.com/zhensherlock/webrtc-streamer-helper/commit/0889a698495daa4ccc29848529094d9bee3cd791))
+* **deps:** update dependency husky to v9.0.11 ([f526a8d](https://github.com/zhensherlock/webrtc-streamer-helper/commit/f526a8d39741494339386cb942578ce2d02fa3f2))
+* **deps:** update dependency rollup to v4.11.0 ([3cea235](https://github.com/zhensherlock/webrtc-streamer-helper/commit/3cea23551fa95d2531a6d97613c47ad12570d3e7))
+* update commitlint monorepo to v18.6.1 ([#235](https://github.com/zhensherlock/webrtc-streamer-helper/issues/235)) ([a196c68](https://github.com/zhensherlock/webrtc-streamer-helper/commit/a196c68414b77fb0c939051ee8074ad887b0a0ed))
+* update dependency husky to v9.0.11 ([#234](https://github.com/zhensherlock/webrtc-streamer-helper/issues/234)) ([158ed12](https://github.com/zhensherlock/webrtc-streamer-helper/commit/158ed127e9a0f29c278d7a5e56a6fcb607ab7a94))
+* update dependency rollup to v4.11.0 ([#233](https://github.com/zhensherlock/webrtc-streamer-helper/issues/233)) ([24e86ea](https://github.com/zhensherlock/webrtc-streamer-helper/commit/24e86eadc2e09f8ad2465ac5b3ce7ba228eda45d))
+
+
+
 ## [1.3.8](https://github.com/zhensherlock/webrtc-streamer-helper/compare/v1.3.7...v1.3.8) (2024-02-12)
 
 
