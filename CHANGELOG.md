@@ -1,3 +1,15 @@
+## [1.3.10](https://github.com/zhensherlock/webrtc-streamer-helper/compare/v1.3.9...v1.3.10) (2024-02-20)
+
+
+### 🎫 Chores | 其他更新
+
+* **deps:** update dependency @typescript-eslint/parser to v7.0.2 ([add6e6d](https://github.com/zhensherlock/webrtc-streamer-helper/commit/add6e6d002425e83e924373e475a43241e4644a0))
+* **deps:** update dependency rollup to v4.12.0 ([602bb58](https://github.com/zhensherlock/webrtc-streamer-helper/commit/602bb589e00e2045513aabe43274e0f3dd129218))
+* update dependency @typescript-eslint/parser to v7.0.2 ([#239](https://github.com/zhensherlock/webrtc-streamer-helper/issues/239)) ([e0c4d6f](https://github.com/zhensherlock/webrtc-streamer-helper/commit/e0c4d6f4ae3d258f06ab4c4180898bc97eb17a80))
+* update dependency rollup to v4.12.0 ([#237](https://github.com/zhensherlock/webrtc-streamer-helper/issues/237)) ([08dcf73](https://github.com/zhensherlock/webrtc-streamer-helper/commit/08dcf73d6ab49b8d05931b4766f4f0c691c28e80))
+
+
+
 ## [1.3.9](https://github.com/zhensherlock/webrtc-streamer-helper/compare/v1.3.8...v1.3.9) (2024-02-15)
 
 
