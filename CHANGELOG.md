@@ -1,3 +1,18 @@
+## [1.3.12](https://github.com/zhensherlock/webrtc-streamer-helper/compare/v1.3.11...v1.3.12) (2024-02-28)
+
+
+### 🎫 Chores | 其他更新
+
+* **deps:** update commitlint monorepo to v19 ([b3925d5](https://github.com/zhensherlock/webrtc-streamer-helper/commit/b3925d5046b1dbedafd297fe9afa2fcc5056a4dc))
+* **deps:** update dependency @commitlint/cli to v19.0.1 ([1b65aca](https://github.com/zhensherlock/webrtc-streamer-helper/commit/1b65acacac09d8d990e90a592766c434d3d302ac))
+* **deps:** update dependency @typescript-eslint/parser to v7.1.0 ([ff688c5](https://github.com/zhensherlock/webrtc-streamer-helper/commit/ff688c5e3abdf51f2330a7534bdf37877dacc915))
+* **deps:** update dependency cssnano to v6.0.5 ([f963d15](https://github.com/zhensherlock/webrtc-streamer-helper/commit/f963d15b6dd8ab1411372379475c427f64fd44cd))
+* update dependency @commitlint/cli to v19.0.1 ([#251](https://github.com/zhensherlock/webrtc-streamer-helper/issues/251)) ([db9c8ca](https://github.com/zhensherlock/webrtc-streamer-helper/commit/db9c8caa258b2d250d07919c907e384c6e971e4f))
+* update dependency @typescript-eslint/parser to v7.1.0 ([#248](https://github.com/zhensherlock/webrtc-streamer-helper/issues/248)) ([a53fee2](https://github.com/zhensherlock/webrtc-streamer-helper/commit/a53fee2e3b34449f8f40d126989a95ccad719cab))
+* update dependency cssnano to v6.0.5 ([#249](https://github.com/zhensherlock/webrtc-streamer-helper/issues/249)) ([e44f2e3](https://github.com/zhensherlock/webrtc-streamer-helper/commit/e44f2e3b7da102ee2073a44b53521b2b924d9d9a))
+
+
+
 ## [1.3.11](https://github.com/zhensherlock/webrtc-streamer-helper/compare/v1.3.10...v1.3.11) (2024-02-24)
 
 
