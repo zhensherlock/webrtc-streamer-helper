@@ -1,3 +1,19 @@
+## [1.3.13](https://github.com/zhensherlock/webrtc-streamer-helper/compare/v1.3.12...v1.3.13) (2024-03-03)
+
+
+### 🎫 Chores | 其他更新
+
+* **deps:** update babel monorepo to v7.24.0 ([66c279a](https://github.com/zhensherlock/webrtc-streamer-helper/commit/66c279ad4c6e504adecbf07611b34a6a254f66d8))
+* **deps:** update commitlint monorepo to v19.0.3 ([65e87f4](https://github.com/zhensherlock/webrtc-streamer-helper/commit/65e87f4a7030a89b6651807d957d480b9f46d852))
+* **deps:** update dependency @types/google.maps to v3.55.4 ([51f4aa3](https://github.com/zhensherlock/webrtc-streamer-helper/commit/51f4aa366fdc4606c2a2214932ce063dd6517fc3))
+* **deps:** update dependency autoprefixer to v10.4.18 ([869b459](https://github.com/zhensherlock/webrtc-streamer-helper/commit/869b459c091561bd0e118d58cf15e771fc57575b))
+* update babel monorepo to v7.24.0 ([#256](https://github.com/zhensherlock/webrtc-streamer-helper/issues/256)) ([d8e4e27](https://github.com/zhensherlock/webrtc-streamer-helper/commit/d8e4e272f4a03b3cc96e0da69a930b2778aca2cc))
+* update commitlint monorepo to v19.0.3 ([#259](https://github.com/zhensherlock/webrtc-streamer-helper/issues/259)) ([f8a8011](https://github.com/zhensherlock/webrtc-streamer-helper/commit/f8a801150022e766a2988cb9825f096a0db9a694))
+* update dependency @types/google.maps to v3.55.4 ([#258](https://github.com/zhensherlock/webrtc-streamer-helper/issues/258)) ([fe868c5](https://github.com/zhensherlock/webrtc-streamer-helper/commit/fe868c520a128df3b8c8e885d8b714f1abb19b2f))
+* update dependency autoprefixer to v10.4.18 ([#257](https://github.com/zhensherlock/webrtc-streamer-helper/issues/257)) ([7480498](https://github.com/zhensherlock/webrtc-streamer-helper/commit/7480498922703d757adb720d95d9835b5b4106de))
+
+
+
 ## [1.3.12](https://github.com/zhensherlock/webrtc-streamer-helper/compare/v1.3.11...v1.3.12) (2024-02-28)
 
 
