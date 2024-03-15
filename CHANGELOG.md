@@ -1,3 +1,15 @@
+## [1.3.16](https://github.com/zhensherlock/webrtc-streamer-helper/compare/v1.3.15...v1.3.16) (2024-03-15)
+
+
+### 🎫 Chores | 其他更新
+
+* **deps:** update commitlint monorepo to v19.1.0 ([7e2f951](https://github.com/zhensherlock/webrtc-streamer-helper/commit/7e2f95117e3009520074062e4c938a4c6a09c9c4))
+* **deps:** update dependency rollup to v4.13.0 ([5e3b39d](https://github.com/zhensherlock/webrtc-streamer-helper/commit/5e3b39dc1f4f4b2bb99bb81a452bf4cac63147f1))
+* update commitlint monorepo to v19.1.0 ([#272](https://github.com/zhensherlock/webrtc-streamer-helper/issues/272)) ([383710c](https://github.com/zhensherlock/webrtc-streamer-helper/commit/383710c144e7b71fc6837d2d3b2288f1c34c8167))
+* update dependency rollup to v4.13.0 ([#273](https://github.com/zhensherlock/webrtc-streamer-helper/issues/273)) ([6c0a4e5](https://github.com/zhensherlock/webrtc-streamer-helper/commit/6c0a4e55eb2bd37d1dfba33439437764168fb743))
+
+
+
 ## [1.3.15](https://github.com/zhensherlock/webrtc-streamer-helper/compare/v1.3.14...v1.3.15) (2024-03-12)
 
 
