@@ -1,3 +1,22 @@
+## [1.3.18](https://github.com/zhensherlock/webrtc-streamer-helper/compare/v1.3.17...v1.3.18) (2024-03-23)
+
+
+### 🎫 Chores | 其他更新
+
+* **deps:** update babel monorepo ([ac0fef1](https://github.com/zhensherlock/webrtc-streamer-helper/commit/ac0fef1026ef90e0100a8b687fdb09f7a0b70fbf))
+* **deps:** update dependency @commitlint/cli to v19.2.1 ([6808196](https://github.com/zhensherlock/webrtc-streamer-helper/commit/6808196d69eedd7f455b0e7a5d8a7c938dd923e0))
+* **deps:** update dependency @types/google.maps to v3.55.5 ([62f4e3f](https://github.com/zhensherlock/webrtc-streamer-helper/commit/62f4e3f2fb10df8e670a75ed2a3b87f99a81a99f))
+* **deps:** update dependency autoprefixer to v10.4.19 ([3f93f1e](https://github.com/zhensherlock/webrtc-streamer-helper/commit/3f93f1e3d2c847e5c987d523f8fa10312e48d423))
+* **deps:** update dependency cssnano to v6.1.1 ([68206c2](https://github.com/zhensherlock/webrtc-streamer-helper/commit/68206c260695283ec14542f037a1d0a054eacbf8))
+* **deps:** update dependency typescript to v5.4.3 ([7580edb](https://github.com/zhensherlock/webrtc-streamer-helper/commit/7580edbf4e62e4d5728a82eab637cfafc8010b06))
+* update babel monorepo ([#284](https://github.com/zhensherlock/webrtc-streamer-helper/issues/284)) ([a926c25](https://github.com/zhensherlock/webrtc-streamer-helper/commit/a926c25db808c848c3a8943d8ccc86dbc4c2f4e4))
+* update dependency @commitlint/cli to v19.2.1 ([#285](https://github.com/zhensherlock/webrtc-streamer-helper/issues/285)) ([fe3def3](https://github.com/zhensherlock/webrtc-streamer-helper/commit/fe3def39471c5cf6dcd65e72ea566c7221a21bf2))
+* update dependency @types/google.maps to v3.55.5 ([#286](https://github.com/zhensherlock/webrtc-streamer-helper/issues/286)) ([b34059a](https://github.com/zhensherlock/webrtc-streamer-helper/commit/b34059a5afe4d2e4a48d9d7cfc6c0fd451bfb7bc))
+* update dependency autoprefixer to v10.4.19 ([#289](https://github.com/zhensherlock/webrtc-streamer-helper/issues/289)) ([5f2feb0](https://github.com/zhensherlock/webrtc-streamer-helper/commit/5f2feb0da3818965e95430dba2277d998fd815f9))
+* update dependency cssnano to v6.1.1 ([#288](https://github.com/zhensherlock/webrtc-streamer-helper/issues/288)) ([f2b2e3d](https://github.com/zhensherlock/webrtc-streamer-helper/commit/f2b2e3d3669ed293f6e1b6699a691cc6ffd52a50))
+
+
+
 ## [1.3.17](https://github.com/zhensherlock/webrtc-streamer-helper/compare/v1.3.16...v1.3.17) (2024-03-19)
 
 
