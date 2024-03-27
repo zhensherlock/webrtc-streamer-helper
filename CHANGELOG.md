@@ -1,3 +1,15 @@
+## [1.3.19](https://github.com/zhensherlock/webrtc-streamer-helper/compare/v1.3.18...v1.3.19) (2024-03-27)
+
+
+### 🎫 Chores | 其他更新
+
+* **deps:** update dependency cssnano to v6.1.2 ([ef01fac](https://github.com/zhensherlock/webrtc-streamer-helper/commit/ef01facfde2114b43328acd2525625e9f00a2679))
+* **deps:** update dependency stylelint to v16.3.1 ([1778542](https://github.com/zhensherlock/webrtc-streamer-helper/commit/17785425abb8472dc4d5bea858a90a8c2d75f649))
+* update dependency cssnano to v6.1.2 ([#292](https://github.com/zhensherlock/webrtc-streamer-helper/issues/292)) ([815e3f3](https://github.com/zhensherlock/webrtc-streamer-helper/commit/815e3f3191b451694f81845e661a0c272de4c27d))
+* update dependency stylelint to v16.3.1 ([#293](https://github.com/zhensherlock/webrtc-streamer-helper/issues/293)) ([33f7669](https://github.com/zhensherlock/webrtc-streamer-helper/commit/33f76693dbf3f30d5932a0dd1e29d744ed2d03a7))
+
+
+
 ## [1.3.18](https://github.com/zhensherlock/webrtc-streamer-helper/compare/v1.3.17...v1.3.18) (2024-03-23)
 
 
