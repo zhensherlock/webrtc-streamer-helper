@@ -1,3 +1,18 @@
+## [1.3.22](https://github.com/zhensherlock/webrtc-streamer-helper/compare/v1.3.21...v1.3.22) (2024-04-08)
+
+
+### 🎫 Chores | 其他更新
+
+* **deps:** update babel monorepo to v7.24.4 ([8c70a4a](https://github.com/zhensherlock/webrtc-streamer-helper/commit/8c70a4a29442b82aaab0e3495f346d9e350ad76a))
+* **deps:** update dependency @types/google.maps to v3.55.7 ([2a89f64](https://github.com/zhensherlock/webrtc-streamer-helper/commit/2a89f6481ffb3c7804cd79d14603b44158675005))
+* **deps:** update dependency rollup to v4.14.1 ([8383bb0](https://github.com/zhensherlock/webrtc-streamer-helper/commit/8383bb088b299cca227383ad4239fa97dbea8411))
+* **deps:** update dependency typescript to v5.4.4 ([223436d](https://github.com/zhensherlock/webrtc-streamer-helper/commit/223436d1c88690c80a53abbe5f8780689d18d666))
+* update babel monorepo to v7.24.4 ([#303](https://github.com/zhensherlock/webrtc-streamer-helper/issues/303)) ([05ba1e8](https://github.com/zhensherlock/webrtc-streamer-helper/commit/05ba1e878687fb2a2c625fa3b43c25cb751c99b6))
+* update dependency @types/google.maps to v3.55.7 ([#304](https://github.com/zhensherlock/webrtc-streamer-helper/issues/304)) ([69e8e62](https://github.com/zhensherlock/webrtc-streamer-helper/commit/69e8e6243b307799fbc7da44eca6665108c2da13))
+* update dependency rollup to v4.14.1 ([#305](https://github.com/zhensherlock/webrtc-streamer-helper/issues/305)) ([6f00603](https://github.com/zhensherlock/webrtc-streamer-helper/commit/6f006039d8fc03ca7a1fac09772ad4807901e5f4))
+
+
+
 ## [1.3.21](https://github.com/zhensherlock/webrtc-streamer-helper/compare/v1.3.20...v1.3.21) (2024-04-03)
 
 
