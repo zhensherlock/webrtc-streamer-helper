@@ -1,3 +1,20 @@
+## [1.3.26](https://github.com/zhensherlock/webrtc-streamer-helper/compare/v1.3.25...v1.3.26) (2024-04-25)
+
+
+### 🎫 Chores | 其他更新
+
+* **deps:** update dependency @commitlint/cli to v19.3.0 ([c9f83a8](https://github.com/zhensherlock/webrtc-streamer-helper/commit/c9f83a86b55c6c1237abd698c030a333d22d330b))
+* **deps:** update dependency @typescript-eslint/parser to v7.7.1 ([f1c0866](https://github.com/zhensherlock/webrtc-streamer-helper/commit/f1c086621efc0ea39e3feb1541124364de7f5cfb))
+* **deps:** update dependency cssnano to v7 ([1c2ab7f](https://github.com/zhensherlock/webrtc-streamer-helper/commit/1c2ab7f5b736d0827081cc8877e4c9c48bca3e79))
+* **deps:** update dependency rollup to v4.16.4 ([e0eaf29](https://github.com/zhensherlock/webrtc-streamer-helper/commit/e0eaf29b8f60860b6d9eb01dcc09c73a32eaebf5))
+* **deps:** update dependency stylelint to v16.4.0 ([9c191cd](https://github.com/zhensherlock/webrtc-streamer-helper/commit/9c191cd0a9de35b43633925e3d5ab22fe34636ed))
+* update dependency @commitlint/cli to v19.3.0 ([#326](https://github.com/zhensherlock/webrtc-streamer-helper/issues/326)) ([a05b449](https://github.com/zhensherlock/webrtc-streamer-helper/commit/a05b449f6fab806256c7d73835531c99c93ce301))
+* update dependency @typescript-eslint/parser to v7.7.1 ([#324](https://github.com/zhensherlock/webrtc-streamer-helper/issues/324)) ([1965d80](https://github.com/zhensherlock/webrtc-streamer-helper/commit/1965d80d9b00fac36bc8fc3acb43274c6511753a))
+* update dependency rollup to v4.16.4 ([#325](https://github.com/zhensherlock/webrtc-streamer-helper/issues/325)) ([f6a9648](https://github.com/zhensherlock/webrtc-streamer-helper/commit/f6a964805337ea5c9730c3a1908f2ac163b3b093))
+* update dependency stylelint to v16.4.0 ([#327](https://github.com/zhensherlock/webrtc-streamer-helper/issues/327)) ([afe08b4](https://github.com/zhensherlock/webrtc-streamer-helper/commit/afe08b414be248ff5f2f9814a2ce7ed6eb8eeba2))
+
+
+
 ## [1.3.25](https://github.com/zhensherlock/webrtc-streamer-helper/compare/v1.3.24...v1.3.25) (2024-04-21)
 
 
