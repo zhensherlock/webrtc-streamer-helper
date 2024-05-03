@@ -1,3 +1,21 @@
+## [1.3.28](https://github.com/zhensherlock/webrtc-streamer-helper/compare/v1.3.27...v1.3.28) (2024-05-03)
+
+
+### 🎫 Chores | 其他更新
+
+* **deps:** update babel monorepo to v7.24.5 ([ffcce62](https://github.com/zhensherlock/webrtc-streamer-helper/commit/ffcce62f6feaa43b262223fdadf73a1faf07ca6c))
+* **deps:** update dependency @types/google.maps to v3.55.8 ([2484f47](https://github.com/zhensherlock/webrtc-streamer-helper/commit/2484f47ef2bcd1470c8c250d528c7c1ef58de56e))
+* **deps:** update dependency @typescript-eslint/parser to v7.8.0 ([265931e](https://github.com/zhensherlock/webrtc-streamer-helper/commit/265931ebe77ccdbb834a4e8ac74d7d8a03aa51a4))
+* **deps:** update dependency rollup to v4.17.2 ([007e86f](https://github.com/zhensherlock/webrtc-streamer-helper/commit/007e86fa830ad2e72aa0f15d2c0160526d8f9c73))
+* **deps:** update dependency stylelint to v16.5.0 ([06078fc](https://github.com/zhensherlock/webrtc-streamer-helper/commit/06078fcf6f9038754c54ce221ed36b26f90e71b2))
+* update babel monorepo to v7.24.5 ([#337](https://github.com/zhensherlock/webrtc-streamer-helper/issues/337)) ([5d50b46](https://github.com/zhensherlock/webrtc-streamer-helper/commit/5d50b466aee1b08692c17374540691ff06fd57b3))
+* update dependency @types/google.maps to v3.55.8 ([#338](https://github.com/zhensherlock/webrtc-streamer-helper/issues/338)) ([b6ab005](https://github.com/zhensherlock/webrtc-streamer-helper/commit/b6ab0050d95a44506e26be5b3f33509478cebd06))
+* update dependency @typescript-eslint/parser to v7.8.0 ([#340](https://github.com/zhensherlock/webrtc-streamer-helper/issues/340)) ([438552a](https://github.com/zhensherlock/webrtc-streamer-helper/commit/438552a0d6aa560c901025c052b7fd26161db20c))
+* update dependency rollup to v4.17.2 ([#339](https://github.com/zhensherlock/webrtc-streamer-helper/issues/339)) ([95613f8](https://github.com/zhensherlock/webrtc-streamer-helper/commit/95613f8ee7549b4762928939ad49a69d1b644504))
+* update dependency stylelint to v16.5.0 ([#341](https://github.com/zhensherlock/webrtc-streamer-helper/issues/341)) ([b086893](https://github.com/zhensherlock/webrtc-streamer-helper/commit/b0868936b4af1b9603c57c3ceb778ff7ab9ba116))
+
+
+
 ## [1.3.27](https://github.com/zhensherlock/webrtc-streamer-helper/compare/v1.3.26...v1.3.27) (2024-04-29)
 
 
