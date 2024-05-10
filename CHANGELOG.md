@@ -1,3 +1,12 @@
+# [1.4.0](https://github.com/zhensherlock/webrtc-streamer-helper/compare/v1.3.28...v1.4.0) (2024-05-10)
+
+
+### ✨ Features | 新功能
+
+* support exports import node environment ([a1cb0cb](https://github.com/zhensherlock/webrtc-streamer-helper/commit/a1cb0cbe101dca77f3de66e9bac87fb834ae4f80))
+
+
+
 ## [1.3.28](https://github.com/zhensherlock/webrtc-streamer-helper/compare/v1.3.27...v1.3.28) (2024-05-03)
 
 
