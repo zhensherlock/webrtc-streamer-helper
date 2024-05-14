@@ -1,3 +1,15 @@
+## [1.4.1](https://github.com/zhensherlock/webrtc-streamer-helper/compare/v1.4.0...v1.4.1) (2024-05-14)
+
+
+### 🎫 Chores | 其他更新
+
+* **deps:** update dependency @typescript-eslint/parser to v7.9.0 ([d152145](https://github.com/zhensherlock/webrtc-streamer-helper/commit/d152145272b471cb4f6fadb751164202f7e4cf23))
+* **deps:** update dependency rimraf to v5.0.7 ([5fb9897](https://github.com/zhensherlock/webrtc-streamer-helper/commit/5fb98971939312b0b90903d5c98616a2678bc1ef))
+* update dependency @typescript-eslint/parser to v7.9.0 ([#348](https://github.com/zhensherlock/webrtc-streamer-helper/issues/348)) ([f1ecd0c](https://github.com/zhensherlock/webrtc-streamer-helper/commit/f1ecd0c61f6a84f3eeb214738edb5d5c51b81524))
+* update dependency rimraf to v5.0.7 ([#347](https://github.com/zhensherlock/webrtc-streamer-helper/issues/347)) ([7d962d6](https://github.com/zhensherlock/webrtc-streamer-helper/commit/7d962d64ee59c09e1eca70504a988589f74bf20f))
+
+
+
 # [1.4.0](https://github.com/zhensherlock/webrtc-streamer-helper/compare/v1.3.28...v1.4.0) (2024-05-10)
 
 
