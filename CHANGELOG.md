@@ -1,3 +1,21 @@
+## [1.4.3](https://github.com/zhensherlock/webrtc-streamer-helper/compare/v1.4.2...v1.4.3) (2024-05-24)
+
+
+### 🎫 Chores | 其他更新
+
+* **deps:** update babel monorepo to v7.24.6 ([435f536](https://github.com/zhensherlock/webrtc-streamer-helper/commit/435f536473309b2f01fda7316abde4982fdb71a3))
+* **deps:** update dependency @typescript-eslint/parser to v7.10.0 ([f2929e3](https://github.com/zhensherlock/webrtc-streamer-helper/commit/f2929e3767d75ea9e08837e05f96e3698c7955ae))
+* **deps:** update dependency lint-staged to v15.2.4 ([d40df74](https://github.com/zhensherlock/webrtc-streamer-helper/commit/d40df74c76b98ffc3899546746ca2f7c6a3c9f1d))
+* **deps:** update dependency rollup to v4.18.0 ([ce87b78](https://github.com/zhensherlock/webrtc-streamer-helper/commit/ce87b786e01500628bb67888a7275688cb91a5ad))
+* **deps:** update dependency stylelint to v16.6.0 ([33269af](https://github.com/zhensherlock/webrtc-streamer-helper/commit/33269af8641fc5114033e7119ddf5d763bd0a8d8))
+* update babel monorepo to v7.24.6 ([#356](https://github.com/zhensherlock/webrtc-streamer-helper/issues/356)) ([3f3c2f4](https://github.com/zhensherlock/webrtc-streamer-helper/commit/3f3c2f489704e0c4966e355307238931c93d8647))
+* update dependency @typescript-eslint/parser to v7.10.0 ([#358](https://github.com/zhensherlock/webrtc-streamer-helper/issues/358)) ([9b77b5b](https://github.com/zhensherlock/webrtc-streamer-helper/commit/9b77b5b301aec93123f7df6850170c68191b08a0))
+* update dependency lint-staged to v15.2.4 ([#357](https://github.com/zhensherlock/webrtc-streamer-helper/issues/357)) ([7c9d471](https://github.com/zhensherlock/webrtc-streamer-helper/commit/7c9d471494d078dfe465a0ed2b184366663a289e))
+* update dependency rollup to v4.18.0 ([#359](https://github.com/zhensherlock/webrtc-streamer-helper/issues/359)) ([d6e2e34](https://github.com/zhensherlock/webrtc-streamer-helper/commit/d6e2e34db2e37a9fb56cd198bbe90d2b9d6acabe))
+* update dependency stylelint to v16.6.0 ([#360](https://github.com/zhensherlock/webrtc-streamer-helper/issues/360)) ([37b37f0](https://github.com/zhensherlock/webrtc-streamer-helper/commit/37b37f05433f250e6c6e7b2fc57848b292741221))
+
+
+
 ## [1.4.2](https://github.com/zhensherlock/webrtc-streamer-helper/compare/v1.4.1...v1.4.2) (2024-05-18)
 
 
