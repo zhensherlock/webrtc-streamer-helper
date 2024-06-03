@@ -1,3 +1,19 @@
+## [1.4.4](https://github.com/zhensherlock/webrtc-streamer-helper/compare/v1.4.3...v1.4.4) (2024-06-03)
+
+
+### 🎫 Chores | 其他更新
+
+* **deps:** update dependency @typescript-eslint/parser to v7.11.0 ([cc5c44b](https://github.com/zhensherlock/webrtc-streamer-helper/commit/cc5c44bf6c70d5705ab834834e10b6524cf17aef))
+* **deps:** update dependency lint-staged to v15.2.5 ([15d9ebb](https://github.com/zhensherlock/webrtc-streamer-helper/commit/15d9ebb31e6ccac623fae48a2796ef3b7e48f0ef))
+* **deps:** update dependency prettier to v3.3.0 ([3afca9f](https://github.com/zhensherlock/webrtc-streamer-helper/commit/3afca9f8677f924ddb96e11cfcd8c4ed1a7978a6))
+* **deps:** update dependency stylelint to v16.6.1 ([2dafb8b](https://github.com/zhensherlock/webrtc-streamer-helper/commit/2dafb8b24dee92ae7408443a8b6934d0a866d8dc))
+* update dependency @typescript-eslint/parser to v7.11.0 ([#366](https://github.com/zhensherlock/webrtc-streamer-helper/issues/366)) ([5461cc5](https://github.com/zhensherlock/webrtc-streamer-helper/commit/5461cc5b30ba2fbf338947f197dfa295c9bbea4d))
+* update dependency lint-staged to v15.2.5 ([#364](https://github.com/zhensherlock/webrtc-streamer-helper/issues/364)) ([27c0054](https://github.com/zhensherlock/webrtc-streamer-helper/commit/27c0054ff6f990fe59ab3146bbb012b1ee1ae195))
+* update dependency prettier to v3.3.0 ([#368](https://github.com/zhensherlock/webrtc-streamer-helper/issues/368)) ([5bb0926](https://github.com/zhensherlock/webrtc-streamer-helper/commit/5bb0926a41ee8d87f680e6831a1d1214f1b303a8))
+* update dependency stylelint to v16.6.1 ([#365](https://github.com/zhensherlock/webrtc-streamer-helper/issues/365)) ([99dd40b](https://github.com/zhensherlock/webrtc-streamer-helper/commit/99dd40b9417bd1971d82b1f7b6b7bee4578a8be5))
+
+
+
 ## [1.4.3](https://github.com/zhensherlock/webrtc-streamer-helper/compare/v1.4.2...v1.4.3) (2024-05-24)
 
 
