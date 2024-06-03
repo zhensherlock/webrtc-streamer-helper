@@ -93,7 +93,7 @@
     "rollup-plugin-filesize": "^10.0.0",
     "rollup-plugin-postcss": "^4.0.2",
     "rollup-plugin-sass": "^1.12.22",
-    "stylelint": "^16.6.0",
+    "stylelint": "^16.6.1",
     "stylelint-order": "^6.0.4",
     "typescript": "5.4.5"
   },
