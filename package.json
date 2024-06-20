@@ -95,7 +95,7 @@
     "rollup-plugin-sass": "^1.12.22",
     "stylelint": "^16.6.1",
     "stylelint-order": "^6.0.4",
-    "typescript": "5.4.5"
+    "typescript": "5.5.2"
   },
   "browserslist": [
     "defaults",
