@@ -74,7 +74,7 @@
     "@types/google.maps": "^3.55.11",
     "@typescript-eslint/parser": "^8.0.0",
     "autoprefixer": "^10.4.19",
-    "concurrently": "^8.2.2",
+    "concurrently": "^9.0.0",
     "conventional-changelog-angular": "^7.0.0",
     "conventional-changelog-cli": "^4.1.0",
     "cssnano": "^7.0.3",
